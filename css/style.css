@@ -1,0 +1,16 @@
+body{
+  background-color: grey;
+}
+
+h1, p{
+  text-align: center;
+}
+img{
+  height:400px;
+  margin-left: 30%
+}
+button{
+  position: absolute;
+  margin-left: 46%;
+  top: 60px;
+}
