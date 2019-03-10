@@ -1,22 +1,14 @@
-# 📊 Week07 Bootcamp2019a Project: Complex API 
+# My Awesome Project
+In this project the user can enter their state and recieve a fact about their state and the local breweries within their state.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![alt tag](brew.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript, Framework of choice
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+In this project I used a brewery api and a wiki api in order to get the information displayed. The user inputs their state and then the breweries in that state. I used two fetch calls in order to get the information.
+
+## Lessons Learned:
+
+I learned a little more on how APIs work and how to use two APIs at once to recieve information.
