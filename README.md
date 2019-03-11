@@ -1,22 +1,13 @@
-# 📊 Week07 Bootcamp2019a Project: Complex API 
+# 📊 Week07 Bootcamp2019a Project: Complex API
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+This generator will give you a venue based on location and type. For example, displaying a lounge located in cleveland, ohio.
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech Used:** HTML, JS, mapquest api, forsquare venues API
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+When the user inputs a city and state, the mapquest api will take in those values and return a json object which I took the latitude and longitude from and placed within variables to use inside of the venues api. Then the venues api uses latitude, longitude and a venue type to search for the first venue that pops up with those values. I then display the name and address of that venue for the user to see.
+
+## Lessons Learned:
+
+In this project, I learned that It is entirely possible to call a function within a .then() promise, but that there is no need for a return for the function call if you can finish all your code in the new function. 
