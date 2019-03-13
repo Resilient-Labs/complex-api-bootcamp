@@ -1,29 +1,37 @@
-document.getElementById('submit').addEventListener('click', brew)
+getPlayer();
+function getPlayer() {
+  let apiURL =
+    "https://www.thesportsdb.com/api/v1/json/1/searchplayers.php?t=Arsenal";
 
-function brew(e) {
-    e.preventDefault();
-    let input = document.getElementById("input").value
-    fetch(`https://api.openbrewerydb.org/breweries?by_state=${input}`)
-    
-    .then(response => response.json())
-    .then(res => {
-        
-        res.forEach(function(brewery){
-            // making a place for the description for the states to be held in HTML
-            let description = document.createElement('p')
-            document.getElementsByTagName('body')[0].appendChild(description);
-            description.innerHTML = description.innerHTML + brewery.name
-        });
-    })
-
-    //Second API to find information on the state input
-    fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${input}`)
-    .then(response => response.json())
-    .then(response =>{
-        //selects info id and changes the contents of the text within it to equal to snippet
-        document.querySelector("#info").textContent = response.query.search[19].snippet
+  let players = [];
+  fetch(apiURL)
+    .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
+    .then(response => {
+      response.player.forEach(function(player) {
+        wiki(player.strPlayer.split("  ")[0]);
+      });
     })
     .catch(err => {
-        console.log(`error ${err}`)
+      console.log(`error ${err}`);
+      alert("sorry, there are no results for your search");
+    });
+}
+
+function wiki(name) {
+  console.log(name);
+  let apiURL ="https://en.wikipedia.org/w/api.php?action=opensearch&origin=*&search=" + encodeURI(name) + "&format=json";
+//encodeURI is for text that has a space in between it
+  fetch(apiURL)
+    .then(res => res.json())
+    .then(response => {
+      console.log(response);
+      let listItem = document.createElement("li");
+      document.querySelector("ul").appendChild(listItem);
+      // inserts api information to the dom
+      listItem.innerHTML = `<p>${response[2][0]}</p>`;
+    })
+    .catch(err => {
+        console.log(`error ${err}`);
+        alert("sorry, there are no results for your search");
     });
 }
