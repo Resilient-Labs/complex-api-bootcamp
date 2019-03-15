@@ -1,22 +1,15 @@
-# 📊 Week07 Bootcamp2019a Project: Complex API 
+#Random holiday generator
+I used a holiday API and searched the randomized holiday result into wikipedia, displaying a description of that holiday.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+## How It's Made:
 
-### How to submit your code for review:
+**Tech used:** HTML, CSS, Javascript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Really just used some basic HTML & CSS along with the ES6 I used after fetching the data from NASA.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Optimizations
+There's obviously a great deal of styling to be done here. Because of the limitations of the original holiday API, I'd like to make the input field a drop-down of the countries I know return results. Likewise, I want to add conditionals to the response to the wikipedia search so that if no information is found, one of the other indices in the response object are checked, as the wiki API can be weird and inconsistent about that.
+
+## Lessons Learned:
+
+Another way to partially randomize a number to use in selecting an item out of an array.
