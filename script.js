@@ -33,33 +33,30 @@
 // KEY TAKEAWAYS
 // number.toLocaleString() to add commas to numbers at ever thousandth place (ie. 1000 >>> 1,000)
 
-
-//MAPBOX API
-mapboxgl.accessToken = 'pk.eyJ1IjoiY29tcGxleGFwaWNlbnN1c2FuZG1hcCIsImEiOiJjanh6ZnBlYWEwMmptM2RvYW02ZTIwODk0In0.m4zyrwu_-34qVZNFVbKtCQ';
-var map = new mapboxgl.Map({
-  container: 'map', // container id
-  style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-  center: [0, 0], // starting position [lng, lat]
-  zoom: 3 // starting zoom
-});
-
-
 document.querySelector("#countryButton").addEventListener("click",() => {
+  let latitiude;
+  let longitude;
   const year = document.querySelector("#yearInput").value
   const age = document.querySelector("#ageInput").value
   const country = document.querySelector("#countryInput").value
   const ageCorrected = parseInt(`${age}`)+1
   const countryIndex = returnCountryIndex(country)
-  let latitiude = parseLat(countryIndex)
-  let longitude = parseLong(countryIndex)
-
-  console.log(`latitiude is ${latitiude}`)
-  console.log(`longitude is ${longitude}`)
+  // let latitiude = parseLat(countryIndex)
+  // let longitude = parseLong(countryIndex)
+  // console.log(`latitiude is ${latitiude}`)
+  // console.log(`longitude is ${longitude}`)
 
 
   fetch(`https://api.census.gov/data/timeseries/idb/1year?get=NAME,AGE,POP&FIPS=${country}&time=${year}&SEX=0`)
   .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
   .then(response => {
+      latitude = parseLat(countryIndex)
+      longitude = parseLong(countryIndex)
+
+// HERE
+
+      console.log(`latitiude is ${latitiude}`)
+      console.log(`longitude is ${longitude}`)
       console.log(response[ageCorrected])
       document.querySelector("#year").innerHTML = response[ageCorrected][4]
       document.querySelector("#country").innerHTML = response[ageCorrected][0]
@@ -67,29 +64,21 @@ document.querySelector("#countryButton").addEventListener("click",() => {
       document.querySelector("#population").innerHTML = parseInt(response[ageCorrected][2]).toLocaleString()
 
       // //MAPBOX API
-      // mapboxgl.accessToken = 'pk.eyJ1IjoiY29tcGxleGFwaWNlbnN1c2FuZG1hcCIsImEiOiJjanh6ZnBlYWEwMmptM2RvYW02ZTIwODk0In0.m4zyrwu_-34qVZNFVbKtCQ';
+      mapboxgl.accessToken = 'pk.eyJ1IjoiY29tcGxleGFwaWNlbnN1c2FuZG1hcCIsImEiOiJjanh6ZnBlYWEwMmptM2RvYW02ZTIwODk0In0.m4zyrwu_-34qVZNFVbKtCQ';
       // var map = new mapboxgl.Map({
-      //   container: 'map', // container id
-      //   style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-      //   center: [-74.50, 40], // starting position [lng, lat]
-      //   zoom: 3 // starting zoom
-      // });
-
-
-
+        var map = new mapboxgl.Map({
+        container: 'map', // container id
+        style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+        //UNCONVENTIONAL ORDER: [LONG FIRST, then LAT]
+        center: [longitude, latitude], // starting position [lng, lat]
+        zoom: 3 // starting zoom
+      });
     })
     .catch(err => {
         console.log(`error ${err}`)
         alert("Sorry, there is no data provided by the U.S. Census Bureau for this search. Please try another search.")
       })
-
-
-
-
-
-
 })
-
 
 //Alternatively could use .filter() method
 function returnCountryIndex(countryCode){
@@ -109,9 +98,6 @@ function parseLat(countryIndex){
 function parseLong(countryIndex){
   return gps[countryIndex].latlng[1]
 }
-
-
-
 
 // JSON Country GPS Coordinates
 // https://gist.github.com/erdem/8c7d26765831d0f9a8c62f02782ae00d
