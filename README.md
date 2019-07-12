@@ -1,5 +1,7 @@
 # 📊 Project: Using Two Apis, Population Statistics with Map
 
+![Preview](/img/preview.png)
+
 ### Goal:
 
 -Use Census.gov's API to display international population statistics while also using the country's latitude and longitude coordinates to recenter Map Box API's map.
