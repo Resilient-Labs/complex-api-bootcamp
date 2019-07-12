@@ -1,22 +1,23 @@
-# 📊 Project: Complex API 
+# 📊 Project: Using Two Apis, Population Statistics with Map
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+### Goal:
 
-### How to submit your code for review:
+-Use Census.gov's API to display international population statistics while also using the country's latitude and longitude coordinates to recenter Map Box API's map.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### Features:
+
+-Census API takes in 3 inputs: 1)Year 2)Age 3)Country Code
+-Embedded ISO Country Abbreviation Table from https://datahub.io/core/country-list
+
+
+### Key Takeaways
+
+-number.toLocaleString() to add commas to numbers at ever thousandth place (ie. 1000 >>> 1,000)
+
+### References:
+
+-https://www.census.gov/data/developers/data-sets/international-database.html
+-https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
+-https://gist.github.com/erdem/8c7d26765831d0f9a8c62f02782ae00d
