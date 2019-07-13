@@ -2,7 +2,7 @@
 
 ### Goal: Users can enter a tv show to fetch and display info from TV Maze's API. From that fetch, use the show's ID to fetch and display cast. Lastly fetch GIFs of all characters on the show using GIPHY's API.
 
-**View project in browser:** https://endev-tvshow-complex-api
+**View project in browser:** https://endev-tvshow-complex-api.netlify.com
 
 ![alt tag](screenshot.png)
 
