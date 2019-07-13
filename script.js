@@ -1,38 +1,3 @@
-// NO API KEY NEEDED
-// https://www.census.gov/data/developers/data-sets/international-database.html
-// https://www.census.gov/data/developers/guidance/api-user-guide.Query_Components.html
-// Example Call: Shows the area in square kilometers and each total mid year population for both sexes from age 0 to 100+ for Norway in 2012.
-
-// (Time Series: various year - 2050)
-
-// International Data Base (Time Series: various year - 2050)
-// AUGUST 17, 2016
-// The U.S. Census Bureau has been preparing estimates and projections of the populations of foreign countries since the 1960s.  In the 1980s, the Census Bureau released its first comprehensive set of estimates and projections for over 200 countries and areas of the world.  Since then, the Census Bureau periodically updates estimates and projections for countries as new data become available and funding permits.  Estimates and projections exist for the countries and areas recognized by the U.S. Department of State which have populations of 5,000 or more.  Population size (by single year of age and sex) and components of change (fertility, mortality, and migration) are provided for each calendar year beyond the initial or base year, through 2050.
-
-// api.census.gov/data/timeseries/idb/1year?get=AREA_KM2,NAME,AGE,POP&FIPS=NO&time=2012&SEX=0
-
-// https://api.census.gov/data/timeseries/idb/1year?get=AREA_KM2,NAME,AGE,POP&FIPS=NO&time=2012&SEX=0
-
-// What Are the Query Limits?
-// You can include up to 50 variables in a single API query and can make up to 500 queries per IP address per day. More than 500 queries per IP address per day requires that you register for a Census key. That key will be part of your data request URL string.
-
-// JSON Country GPS Coordinates
-// https://gist.github.com/erdem/8c7d26765831d0f9a8c62f02782ae00d
-
-// MAPBOX GL JS API
-// https://docs.mapbox.com/mapbox-gl-js/overview/
-// https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
-// https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-geocoder-accept-coordinates/
-
-// https://docs.mapbox.com/help/how-mapbox-works/access-tokens/
-// TOKEN
-// pk.eyJ1IjoiY29tcGxleGFwaWNlbnN1c2FuZG1hcCIsImEiOiJjanh6ZnBlYWEwMmptM2RvYW02ZTIwODk0In0.m4zyrwu_-34qVZNFVbKtCQ
-// Here's what an access token looks like in one of our APIs (specifically, in a Geocoding API request):
-// https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=YOUR_MAPBOX_ACCESS_TOKEN
-
-// KEY TAKEAWAYS
-// number.toLocaleString() to add commas to numbers at ever thousandth place (ie. 1000 >>> 1,000)
-
 document.querySelector("#countryButton").addEventListener("click",() => {
   let latitiude;
   let longitude;
@@ -41,29 +6,18 @@ document.querySelector("#countryButton").addEventListener("click",() => {
   const country = document.querySelector("#countryInput").value
   const ageCorrected = parseInt(`${age}`)+1
   const countryIndex = returnCountryIndex(country)
-  // let latitiude = parseLat(countryIndex)
-  // let longitude = parseLong(countryIndex)
-  // console.log(`latitiude is ${latitiude}`)
-  // console.log(`longitude is ${longitude}`)
-
 
   fetch(`https://api.census.gov/data/timeseries/idb/1year?get=NAME,AGE,POP&FIPS=${country}&time=${year}&SEX=0`)
   .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
   .then(response => {
       latitude = parseLat(countryIndex)
       longitude = parseLong(countryIndex)
-
-// HERE
-
-      console.log(`latitiude is ${latitiude}`)
-      console.log(`longitude is ${longitude}`)
-      console.log(response[ageCorrected])
       document.querySelector("#year").innerHTML = response[ageCorrected][4]
       document.querySelector("#country").innerHTML = response[ageCorrected][0]
       document.querySelector("#age").innerHTML = response[ageCorrected][1]
       document.querySelector("#population").innerHTML = parseInt(response[ageCorrected][2]).toLocaleString()
 
-      // //MAPBOX API
+      // MAPBOX API
       mapboxgl.accessToken = 'pk.eyJ1IjoiY29tcGxleGFwaWNlbnN1c2FuZG1hcCIsImEiOiJjanh6ZnBlYWEwMmptM2RvYW02ZTIwODk0In0.m4zyrwu_-34qVZNFVbKtCQ';
       // var map = new mapboxgl.Map({
         var map = new mapboxgl.Map({
@@ -80,7 +34,7 @@ document.querySelector("#countryButton").addEventListener("click",() => {
       })
 })
 
-//Alternatively could use .filter() method
+// Alternatively could use .filter() method
 function returnCountryIndex(countryCode){
   for(let i=0; i<gps.length; i++){
     if (gps[i].country_code == countryCode){
@@ -3240,3 +3194,39 @@ const gps =
         "capital": "Harare"
     }
 ]
+
+
+// NO API KEY NEEDED
+// https://www.census.gov/data/developers/data-sets/international-database.html
+// https://www.census.gov/data/developers/guidance/api-user-guide.Query_Components.html
+// Example Call: Shows the area in square kilometers and each total mid year population for both sexes from age 0 to 100+ for Norway in 2012.
+
+// (Time Series: various year - 2050)
+
+// International Data Base (Time Series: various year - 2050)
+// AUGUST 17, 2016
+// The U.S. Census Bureau has been preparing estimates and projections of the populations of foreign countries since the 1960s.  In the 1980s, the Census Bureau released its first comprehensive set of estimates and projections for over 200 countries and areas of the world.  Since then, the Census Bureau periodically updates estimates and projections for countries as new data become available and funding permits.  Estimates and projections exist for the countries and areas recognized by the U.S. Department of State which have populations of 5,000 or more.  Population size (by single year of age and sex) and components of change (fertility, mortality, and migration) are provided for each calendar year beyond the initial or base year, through 2050.
+
+// api.census.gov/data/timeseries/idb/1year?get=AREA_KM2,NAME,AGE,POP&FIPS=NO&time=2012&SEX=0
+
+// https://api.census.gov/data/timeseries/idb/1year?get=AREA_KM2,NAME,AGE,POP&FIPS=NO&time=2012&SEX=0
+
+// What Are the Query Limits?
+// You can include up to 50 variables in a single API query and can make up to 500 queries per IP address per day. More than 500 queries per IP address per day requires that you register for a Census key. That key will be part of your data request URL string.
+
+// JSON Country GPS Coordinates
+// https://gist.github.com/erdem/8c7d26765831d0f9a8c62f02782ae00d
+
+// MAPBOX GL JS API
+// https://docs.mapbox.com/mapbox-gl-js/overview/
+// https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
+// https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-geocoder-accept-coordinates/
+
+// https://docs.mapbox.com/help/how-mapbox-works/access-tokens/
+// TOKEN
+// pk.eyJ1IjoiY29tcGxleGFwaWNlbnN1c2FuZG1hcCIsImEiOiJjanh6ZnBlYWEwMmptM2RvYW02ZTIwODk0In0.m4zyrwu_-34qVZNFVbKtCQ
+// Here's what an access token looks like in one of our APIs (specifically, in a Geocoding API request):
+// https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=YOUR_MAPBOX_ACCESS_TOKEN
+
+// KEY TAKEAWAYS
+// number.toLocaleString() to add commas to numbers at ever thousandth place (ie. 1000 >>> 1,000)
