@@ -1,0 +1,27 @@
+h1,h2,.div,input{
+  text-align: center;
+}
+.div{
+  width: 75%;
+  margin: 0 auto;
+}
+input{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+button{
+  width: 10%;
+  height
+  margin: 0;
+  padding: 0;
+
+}
+iframe{
+  width: 100%;
+}
+
+#map{
+  height: 350px;
+  width:100%;
+}

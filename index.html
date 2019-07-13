@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+    <h1>Population Statistics (MAP)</h1>
+    <h2>For the year <span id="year">______</span> in <span id="country">______</span>, the population of <span id="age">______</span> year olds is measured as <span id="population">______</span>.</h2>
+    <div class="div">
+      <form class="" action="index.html" method="post">
+        <input id="yearInput" type="text" name="year" value="" placeholder="Year, Roughly +1960-2050futureprojections (eg. 2012)">
+        <input id="ageInput" type="text" name="age" value="" placeholder="Age, From 0-100+ (eg. 25))">
+
+        <input id="countryInput"type="text" name="country" value="" placeholder="Country, 2 Letter (eg. 'AF' for Afghanistan)">
+        <button id="countryButton" type="button" name="country">Submit</button>
+      </form>
+      <iframe src="https://datahub.io/core/country-list/r/0.html" width="21%" height="100%" frameborder="0"></iframe>
+    </div>
+    <div id='map'></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
