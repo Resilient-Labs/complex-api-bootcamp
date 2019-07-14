@@ -1,0 +1,13 @@
+.border{
+    border: 2px solid black;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    background-color: white;
+    height: 300px;
+    margin: 2%;
+  }
