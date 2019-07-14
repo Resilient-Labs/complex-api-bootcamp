@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(http://giphygifs.s3.amazonaws.com/media/D0yzrXe881M7m/giphy.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+    margin-left: 32%;
+    margin-top: 8%;
+    color: greenyellow;
+    letter-spacing: 0.18em;
+    opacity: 0.70;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 1px #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0px #000;
+}
+
+section {
+  border: 1px solid black;
+  width: 71%;
+  padding-left: 5%;
+  margin: auto;
+  background-color: white;
+  opacity: 0.70;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+button{
+border: 3px solid #32435c;
+  background: white;
+  color: #32435c;
+  text-decoration: none;
+box-shadow: 5px 5px #32435c;
+padding:10px 20px;
+    -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+text-decoration:none;
+}
+button:hover, .button:focus, .button:active {
+background-color:  #32435c;
+color: #ffffff;
+}
+
+button {
+font-family:'Poppins', sans-serif;
+margin-left: 13%;
+width: 25%;
+margin-bottom: 6%;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  float: left;
+  margin-right: 3%;
+  width: 38%;
+  color: forestgreen;
+  letter-spacing: 0.12em;
+}
+input {
+  font-family: 'Poppins', sans-serif;
+  font-size:200;
+  width: 40%;
+  margin-top: 5%;
+  padding: 19px;
+  margin-left: 3%;
+}
+img {
+  width: 48%;
+ float: left;
+ margin-top: 3%;
+ margin-bottom: 10%;
+
+}
