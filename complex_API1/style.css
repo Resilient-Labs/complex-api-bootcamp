@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/M4UZsxI.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Mountains of Christmas', cursive;
+    background-size: 100% 1800px;
+}
+.house-column {
+    width: 25%;
+    float: left;
+    color: white;
+}
+
+.house-title {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.character {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
