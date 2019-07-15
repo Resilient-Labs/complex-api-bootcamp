@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/EDcb.png");
+background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size: 10px
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 15px 25px;
+  text-transform: uppercase;
+  color: yellow;
+  background-color: transparent;
+  border: 3px solid yellow;
+  overflow: hidden;
+  hover: hidden;
+  cursor: pointer;
+}
+
+.effect-wave {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: yellow;
+  opacity: 0.5;
+}
