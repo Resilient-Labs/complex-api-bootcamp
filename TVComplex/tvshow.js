@@ -3,7 +3,7 @@ document.querySelector('button').addEventListener("click", function() {
   inputValue = inputValue.split(' ').join('-')
 
   //FETCH 1 GETS SHOW INFORMATION FROM INPUT VALUE
-  fetch("http://api.tvmaze.com/search/shows?q="+`${inputValue}`)
+  fetch("https://api.tvmaze.com/search/shows?q="+`${inputValue}`)
     .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
     .then(response => {
 
@@ -33,7 +33,7 @@ document.querySelector('button').addEventListener("click", function() {
       var character=""
       const characters=[]
       const charNames=[]
-      fetch("http://api.tvmaze.com/shows/"+`${id}`+"/cast")
+      fetch("https://api.tvmaze.com/shows/"+`${id}`+"/cast")
         .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
         .then(response => {
           for (let count=0;count<response.length;count++){
