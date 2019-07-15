@@ -1,0 +1,35 @@
+h1{
+  color: red;
+  text-align: center;
+}
+
+li{
+  text-align: center;
+  margin: 5%;
+  list-style: none;
+}
+img{
+width: 40%;
+height: 350px;
+}
+
+a {
+    float: left;
+    font-size: 2rem;
+    color: aliceblue;
+}
+form{
+  width: 100%
+}
+
+
+body{
+  background-image: url("https://img.freepik.com/free-photo/various-mexican-food-dark-background_23-2147740705.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#foodName{
+  color: white;
+    text-align: center;
+    font-size: 3rem;
+}
