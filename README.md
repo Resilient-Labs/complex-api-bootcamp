@@ -1,7 +1,7 @@
 # Complex API 2 - Concert App
 The project is webpage that uses an two apis to the next concert by date and venue information from wikipedia.
 
-<img src="/FunWithFIdo_screenschoot.png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
+<img src="https://github.com/kevingraydev/complex-api-bootcamp/blob/answer/concertapp.png?raw=true" alt="screenshot of concert app webpage" height="200px">
 
 ## How It's Made:
 
