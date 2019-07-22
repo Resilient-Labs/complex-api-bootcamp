@@ -1,22 +1,19 @@
-# 📊 Project: Complex API 
+# Complex API 2 - Concert App
+The project is webpage that uses an two apis to the next concert by date and venue information from wikipedia.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+<img src="/FunWithFIdo_screenschoot.png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The project was create and designed with HTML and CSS. Javascript was used to fetch an API that generates the concert dates found in ticketmaster based on the parameter of artist.  The venue data from the API is then used with the Wiki API to provide additional information on the venue.
+
+## Optimizations (Optional):
+
+Optional.
+
+
+## Lessons Learned:
+
+I learned that APIs range in terms of their functionality, and that being able to leverage the functionality of the API is important in terms of the information you receive back. APIs may often provide more information than is needed to address your particuar quesitons or objectve for your project. It is important to only utilize relevant data, in this case only the first concert. The api had a built in sort/filter by date which was helpful.  I also learned the utility of using null to reset appended/populated files with empty or no values.
