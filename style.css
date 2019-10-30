@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.eventInfo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin: 0;
+}
+
+
+.searchResults {
+  margin-top: 40px;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://image.redbull.com/rbcom/010/2016-06-11/1331799856200_2/0010/1/1050/700/1/j.-cole.jpg);
+  background-size: 100% 300%;
+  background-repeat: no-repeat;
+}
+
+.main {
+  background-color: rgb(255,255,255,0.75);
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 25%;
+  padding: 10px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
