@@ -1,0 +1,178 @@
+/******************************************
+/* SETUP
+/*******************************************/
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  }
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+  margin: 7% 12%;
+  font-family: 'Open Sans', serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
+  background-image: url('media/bg3.png');
+  background-size:100%;
+  background-repeat: repeat;
+}
+
+.clearfix{
+  background-color: rgba(255, 140, 89, .9);
+  border-radius: 10px;
+  border: 1px solid #a31111;
+  padding: 5% 7%;
+}
+
+.tagline,h1, h2, h3 {
+  font-family: 'Oswald', serif;
+  color: #a31111;
+}
+
+
+.tagline{
+  font-family: 'Indie Flower', cursive;
+  font-size: 85px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: -15px;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 25px 0 50px 0;
+}
+
+h2,h3 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  clear:both;
+}
+
+button, input {
+  background-color:inherit;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom:50px;
+  font-size: 20px;
+  font-family: 'Oswald', serif;
+}
+
+input {
+  width:70%;
+  margin-left: 8%;
+}
+
+input::placeholder{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+button:focus, input:focus {
+    outline: 1px solid #000;
+}
+
+.poster {
+  width:30%;
+  float:left;
+  margin:0 2% 25px 0;
+}
+
+ul{
+  margin-bottom: 50px;
+}
+
+li {
+  list-style-type: disc;
+  margin-left: 2%;
+  margin-bottom: 4px;
+}
+
+.characters div,.characters img{
+  width:33%;
+  height:180px;
+  float:left;
+}
+
+.characters img{
+  width:100%;
+}
+
+.network, .genres,.rating {
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.summary {
+  font-size: 18px;
+  line-height: 1.2em;
+  margin-top: 15px;
+}

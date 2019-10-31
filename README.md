@@ -1,22 +1,19 @@
-# 📊 Project: Complex API 
+# 📊 Project: Complex API - TV Show Info
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+### Goal: Users can enter a tv show to fetch and display info from TV Maze's API. From that fetch, use the show's ID to fetch and display cast. Lastly fetch GIFs of all characters on the show using GIPHY's API.
 
-### How to submit your code for review:
+**View project in browser:** https://endev-tvshow-complex-api.netlify.com
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](screenshot.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Design and Development:
+**Tech Used** HTML, CSS, JavaScript, API, JSON: 
+Using two of TVMaze's API endpoints, users can enter the name of a TV show and the first fetch will display information about that show. From the endpoint, we get the show's ID which can be used to fetch the cast and character names to display. From the character names, use GIPHY's API to fetch gifs of each character.
+
+## Reflections:
+First time using 3 fetch calls and it was great to see everything connecting together and function properly. To not exhaust fetch calls, once I was satisfied with my results- I pasted the results into my HTML to style and deleted them once completed.
+
+## API Source:
+**TVMaze:** https://www.tvmaze.com/blogs/3/tv-api
+
+**GIPHY:** https://developers.giphy.com/
