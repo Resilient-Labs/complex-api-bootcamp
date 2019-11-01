@@ -19,39 +19,23 @@ btn.addEventListener('click',()=>{
     .then(res => res.json())
 
     .then(response =>{
-      // const results =document.createTextNode(response.results)
-      // result.appendChild(results)
-      if('img'=== 0){
+      if( response.results[0].thumbnail !== '' ){
       document.querySelector('img').src = response.results[0].thumbnail
-    }else{
+    }else {
       console.log(response.results[0].thumbnail)
 
-      // console.log(response)
-      // //
-      // const results= document.createTextNode(response.results[0].ingredients`)
-      // result.appendChild(results)
       let zebra= response.results[0].ingredients
-      //
       let ingredient= Object.values(zebra)
-      console.log(ingredient)
-      let ing= (ingredient.join(''))
-      console.log(ing)
-      let joinning= ing.split(",")
-      console.log(joinning)
+      let ing= (ingredient.join('').split(","))
 
-      for(const x of joinning){
+
+      for(const x of ing){
          let ol= document.querySelector('#list')
          let li= document.createElement('li')
          li.appendChild(document.createTextNode(x))
          ol.appendChild(li)
       }
-      // for(let ingredients)
 
-       // zebra.forEach((el) =>{
-       //  let ol= document.querySelector('#list')
-       //  let li= document.createElement('li')
-       //  li.textContent = el;
-       //  ol.appendChild(li)
       }
     })
     })
