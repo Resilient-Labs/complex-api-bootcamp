@@ -1,0 +1,45 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-family: sans-serif;
+  height:1vh;
+  color: red;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgametradersusa.com%2Fwp-content%2Fuploads%2F2016%2F08%2Fpokedex1.gif&f=1&nofb=1);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0599fa;
+}
+section {
+  width:20%;
+  margin: .5rem auto;
+  margin-top: 23%;
+  margin-left: 65%;
+  margin-bottom: -1%;
+}
+h1, h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 1rem;
+}
+input {
+  margin-left: 64%;
+  font-size: 1rem;
+  border: .25rem solid black;
+  width: 21%;
+}
+p {
+  font-size: 1rem;
+  margin-left: 65%;
+  font-weight: 800;
+}
+img {
+  width: 35.2%;
+  height: 17.8rem;
+  bottom: 12.3rem;
+  left: 6.8%;
+  position: relative;
+  border-radius: 4%;
+}

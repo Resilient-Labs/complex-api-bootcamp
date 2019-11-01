@@ -4,7 +4,8 @@ pokemonId.onchange = function (){
   fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
     .then(res => res.json())
     .then(res =>{
-      document.querySelector("p").textContent = "Your Pokemon is: "+ res.name;
+      let name = res.name[0].toUpperCase() + res.name.slice(1);
+      document.querySelector("p").textContent = "Your Pokemon is: "+ name;
       let pokemon = res.name;
       fetch(`https://api.giphy.com/v1/gifs/search?api_key=GGMJGgb6WoY8BsvTuNgQgpf7K2haqWc0&q=${pokemon}&limit=1&offset=0&rating=G&lang=en`)
         .then(res =>res.json())
