@@ -1,0 +1,25 @@
+body{
+  box-sizing: border-box;
+  background-color: #0F5257;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'McLaren', cursive;
+}
+H1{
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-variant-caps:
+}
+input, button{
+  font-size: 2rem;
+  border-radius: 4px;
+  margin-left: 2%;
+  text-align: center;
+
+}
+span{
+  font-size: 3.5rem;
+  color: white;
+  margin-top: 2%;
+}
