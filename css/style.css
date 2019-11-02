@@ -1,0 +1,25 @@
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+body {
+    font-family: 'Lato';
+    font-size: 2rem;
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('../img/hearthstone-card.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #ffffff;
+}
+
+.boldText {
+    font-weight: bold;
+}

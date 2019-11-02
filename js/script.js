@@ -27,11 +27,11 @@ function cardLookup() {
             var targetUrl = `https://art.hearthstonejson.com/v1/orig/${encodeURIComponent(response[0].cardId)}.png`;
             document.querySelector("#cardTitle").textContent = cardToSearch;
             document.querySelector("#cardImage").src = targetUrl;
-            document.querySelector("#cardCost").textContent = `Cost: ${response[0].cost}`;
-            document.querySelector("#cardAttack").textContent = `Attack: ${response[0].attack}`;
-            document.querySelector("#cardHealth").textContent = `Health: ${response[0].health}`;
-            document.querySelector("#cardText").textContent = `Text: "${response[0].text}"`;
-            document.querySelector("#cardFlavor").textContent = `Flavor: "${response[0].flavor}"`;
+            document.querySelector("#cardCost").innerHTML = `<span class="boldText">Cost:</span> ${response[0].cost}`;
+            document.querySelector("#cardAttack").innerHTML = `<span class="boldText">Attack:</span> ${response[0].attack}`;
+            document.querySelector("#cardHealth").innerHTML = `<span class="boldText">Health:</span> ${response[0].health}`;
+            document.querySelector("#cardText").innerHTML = `<span class="boldText">Text:</span> "${response[0].text}"`;
+            document.querySelector("#cardFlavor").innerHTML = `<span class="boldText">Flavor:</span> "${response[0].flavor}"`;
         })
         .catch(err => console.log(err));
 
