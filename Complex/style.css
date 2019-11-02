@@ -1,0 +1,47 @@
+h1{
+  color: red;
+  font-size: -webkit-xxx-large;
+  display: flex;
+  justify-content: center;
+}
+p{
+  display: flex;
+  justify-content: center;
+}
+div{
+  display: block;
+  float: left;
+  margin-left: 38em;
+}
+button{
+  border-radius: 6%;
+  font-size: 25px;
+  margin-left: -1em;
+  font-family: sans-serif;
+  display: block;
+}
+#result{
+  font-size: 30px;
+}
+#refresh{
+  display: flex;
+  justify-content: center;
+}
+
+#recipe{
+  font-size: 39px;
+  font-weight: bold;
+  display: block;
+  margin-left: -4em;
+}
+.contain{
+  display: block;
+  float: left;
+  margin-left: -13em;
+}
+ol li{
+  font-size:26px;
+}
+img{
+  margin-left: 13em;
+}
