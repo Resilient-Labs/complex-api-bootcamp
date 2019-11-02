@@ -33,6 +33,6 @@ function cardLookup() {
             document.querySelector("#cardText").innerHTML = `<span class="boldText">Text:</span> "${response[0].text}"`;
             document.querySelector("#cardFlavor").innerHTML = `<span class="boldText">Flavor:</span> "${response[0].flavor}"`;
         })
-        .catch(err => console.log(err));
+        .catch(err => alert("Error: could not find the card data."));
 
 }
