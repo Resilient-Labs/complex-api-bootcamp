@@ -1,0 +1,55 @@
+body{
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+h1 span{
+  color: yellow;
+  font-size: 68px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+button{
+  position: absolute;
+  transition: 1.5s ease;
+  left: 39%;
+  width: 20%;
+  height: 15%;
+  background-color: yellow;
+  color: black;
+  text-shadow: 2px 2px #ff0000;
+  border-radius: 65%;
+  font-size: 34px;
+}
+
+button:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+p{
+  color: white;
+  font-feature-settings: inherit;
+  font-variant: petite-caps;
+  font-size: 37px;
+  text-align: center;
+  margin-top: 15%;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+img{
+  margin-left: 31%;
+}
