@@ -13,7 +13,7 @@
 * **link to project**: https://relaxed-noyce-d25ce6.netlify.com
 
 * **Image of project in use**
-![](moodBooster.png)
+![](complex/moodBooster.png)
 
 
 * **Getting Started**
