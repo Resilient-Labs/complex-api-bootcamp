@@ -19,7 +19,8 @@ btn.addEventListener('click', (e)=>{
       // create a text node to put the text content into
       const translatedMessage = document.createTextNode(translatedContent)
       // append the text node to the span in HTML
-      translateOutput.appendChild(translatedMessage)
+      // translateOutput.appendChild(translatedMessage)
+      translateOutput.textContent = translatedContent;
       // let apiKey = "E3fj35dAgTLDkWaHjeD69r1rvJcIHaVx";
       fetch(`https://api.giphy.com/v1/gifs/search?api_key=E3fj35dAgTLDkWaHjeD69r1rvJcIHaVx&q=${translatedContent}%20yoda&limit=25&offset=0&rating=G&lang=en`)
         // return promise in an object
@@ -27,13 +28,13 @@ btn.addEventListener('click', (e)=>{
         // take object and run this funtion
         .then(response =>{
           // hold space for img tag
-          let imgSpace = document.querySelector('.img')
+          let img = document.querySelector('#yodaImage')
           //create img element
-          let image = document.createElement('img')
+          // let image = document.createElement('img')
           //give image the source of data in object
-          image.src = response.data[0].images.downsized.url
+          img.src = response.data[0].images.downsized.url
           //append image to held image space
-          imgSpace.appendChild(image)
+          // imgSpace.appendChild(image)
 
         })
         //if there is an error, log this function
