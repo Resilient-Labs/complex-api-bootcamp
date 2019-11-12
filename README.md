@@ -1,4 +1,4 @@
-# My To do list
+# Complex GIFFY API
 This project is a complex API. I used the New York Times API along with a Giphy API. I was able to utilize the names of any person for both APIs to work together, so when you input a name(last name, first name) it will give you a gif of that person that you've searched for. Keep in mind that not everyone will show up, only those who have been on an article for The New York Times.
 
 
