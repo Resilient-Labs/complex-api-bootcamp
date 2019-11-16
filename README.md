@@ -1,9 +1,12 @@
-# 📊 Project: Complex API 
+# 📊 Project: Complex API  (KANYE WEST)
 
-This project was very fun to work on. Exploring the powerful capabilities of 
-API.
+### Goal: Display data returned from an api
 
-I completed the challenge: 5
-I feel good about my code: 5
+This API gives the user a random Kanye gif with a random Kanye quote whenever the button is clicked.
 
-All feedback welcome
+![alt tag](complexapiSS.png)
+
+
+TOOLS used: HTML, CSS, JAVASCRIPT
+
+
