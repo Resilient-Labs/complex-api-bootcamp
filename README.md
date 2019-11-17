@@ -2,21 +2,18 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+This web app lists the top 50 artists in any given country.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Link to project:** https://brave-clarke-38c31b.netlify.com
+![alt tag](https://github.com/anthonybetances/complex-api-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%203.17.11%20AM.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+**Tech used:** HTML, CSS, JavaScript, APIs
+When the user submits a country code, the web app runs that input through a travel advisory API, which then runs the corresponding country name from that fetch's response data through the last.fm / audioscrobbler API.  The app then abstracts and the top 50 artists from that country (according to the API's perhaps questionable data), and displays them in an ordered list.
+
+## How To Use:
+  1. Click on the link above.
+  2. Enter a country code and click the "submit" button.  The "country code" link can help you find any country's code, should you need     help.
+  3. Scroll to view that country's list.
+  
+Enjoy!
