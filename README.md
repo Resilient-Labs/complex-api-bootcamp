@@ -8,7 +8,7 @@ This web app lists the top 50 artists in any given country.
 ![alt tag](https://github.com/anthonybetances/complex-api-bootcamp/blob/answer/Screen%20Shot%202019-11-17%20at%203.17.11%20AM.png)
 
 ## How It's Made:
-**Tech used:** HTML, CSS, JavaScript, APIs
+**Tech used:** HTML, CSS, JavaScript, APIs.
 When the user submits a country code, the web app runs that input through a travel advisory API, which then runs the corresponding country name from that fetch's response data through the last.fm / audioscrobbler API.  The app then abstracts and the top 50 artists from that country (according to the API's perhaps questionable data), and displays them in an ordered list.
 
 ## How To Use:
