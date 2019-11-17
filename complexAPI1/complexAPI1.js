@@ -1,7 +1,7 @@
 const button = document.querySelector('#thing')
 let ul = document.querySelector('ul')
 let result = document.querySelector('h2')
-let apiKey = '6873435a182dd2bba509bce88f27e215'
+let apiKey = 'a43ad62f35d1960fa083c0604bee3078'
 
 button.addEventListener('click', ()=>{
 let countryCode = document.querySelector('#input').value
