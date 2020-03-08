@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: beige;
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  color: blue;
+  font-size: 65px;
+}
+#bitcoinPriceUsd, #convertEuro, #output, #generator{
+  display: flex;
+  justify-content: center;
+  color: brown;
+  font-size: 40px;
+}
+
+#generatorPounds, #generatorYen, #generatorEuros{
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  font-weight: bold;
+  font-size: 40px;
+}
+#bitcoinSymbol{
+  border: black;
+  width: 75%;
+}
