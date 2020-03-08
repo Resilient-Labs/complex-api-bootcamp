@@ -1,14 +1,23 @@
-let key = `N2X7YV6CcMVkM7ykUk8QdDNpUvc1sgZ7`
-let searchThis = 'cats'
-let movie
+let key = `e3e292ca`
+//let searchThis = 'cats'
 
+let sec = document.querySelector(`section`)
 
 document.querySelector(`#btn`).addEventListener('click',onClick)
 
 
 function onClick(){
+
+  if(sec.hasChildNodes() === true){ //removes all children nodes from sec
+    
+    while (sec.firstChild) {
+      sec.removeChild(sec.lastChild);
+    }
+  }
+
  let pick = Math.floor( (Math.random()*20))
  getMovie(pick)
+ //getMovieInfo('cats')
 }
 
 
@@ -17,20 +26,13 @@ function onClick(){
 
 
 function getMovie(movieSelected){
-  fetch(`https://ghibliapi.herokuapp.com/films/ `)
+  fetch(`https://ghibliapi.herokuapp.com/films `)
     .then(res => res.json()) 
     .then(response => {
      // console.log(response)
         let moviePicked = response[movieSelected].title
-        console.log(moviePicked)
-        getGif(moviePicked)
+        getMovieInfo(moviePicked)
       
-
-    // for(let i=1; i<= response.length;i++){
-    //   title= response[i-1].title
-    //   console.log(title)
-    // }
-
     })
 
     .catch(err => {
@@ -44,23 +46,19 @@ function getMovie(movieSelected){
 
 
 
-function getGif(movie){
+function getMovieInfo(movie){
 
-  fetch(`https://cors-anywhere.herokuapp.com/api.giphy.com/v1/gifs/search?q=${movie}&api_key=${key}&limit=5&lang=en`)
+  fetch(`https://www.omdbapi.com/?t=${movie}&apikey=${key}`)
     .then(res => res.json()) 
     .then(response => {
-     console.log(response)
-  for (let i = 1; i <= response.data.length;i++){
 
-     url = response.data[i-1].url
-
-     formatDom(movie,url)}
-
-    })
+      formatDom(response.Title, response.Year, response.Plot, response.Awards, response.imdbRating)
+     
+})
 
     .catch(err => {
         console.log(`error ${err}`)
-        alert("sorry, there are no gifs found")
+        alert("sorry, there are no movies found")
     });
   }
 
@@ -70,12 +68,23 @@ function getGif(movie){
 
 
 
-function formatDom(m,u){
-  let img =document.createElement('img')
-  let span = document.createElement(`span`)
-    img.src = u
-    span.textContent = m
-  document.querySelector(`section`).appendChild(img)
-  document.querySelector(`section`).appendChild(span)
+function formatDom(title,year,plot,awards,imdbRating){
+
+  let spanTitle =document.createElement('span')
+  let spanYear = document.createElement(`span`)
+  let plotBlurb = document.createElement(`p`)
+  let spanAwards = document.createElement(`span`)
+  let spanImdb = document.createElement(`span`)
+    spanTitle.textContent = title
+    spanYear.textContent = year
+    plotBlurb.textContent = plot
+    spanAwards.textContent = awards
+    spanImdb.textContent = imdbRating
+
+  sec.appendChild(spanTitle)
+  sec.appendChild(spanYear)
+  sec.appendChild(plotBlurb)
+  sec.appendChild(spanAwards)
+  sec.appendChild(spanImdb)
 
 }
