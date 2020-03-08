@@ -1,0 +1,45 @@
+body{
+  background-image: url(pokeBack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pokeBall{
+  height: 100px;
+  float: left;
+}
+
+h1{
+  float: left;
+  color: yellow;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h3{
+  text-align: center;
+  color: #ff3300;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+p{
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: 'Luckiest Guy', cursive;
+  clear: both;
+  color: white;
+}
+
+iframe{
+  height: 300px;;
+  width: auto;
+  margin-left: 100px;
+  clear: both;
+}
+
+#pokeImg{
+  height: 300px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 400px;
+  clear: both;
+}
