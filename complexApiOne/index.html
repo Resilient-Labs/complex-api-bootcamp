@@ -2,30 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sen:400,700,800|Spartan&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    <h1>Medical Dictionary</h1>
-    <input type="text">
-    <button type="button" name="button" id="findWord"></button>
-    <h2 id="paragraph"></h2>
-
-    <h3>Definition</h3>
-    <ul id="listOne">
-
-    </ul>
-    <h3>Synonyms</h3>
+    <header>
+        <h1>Medical Dictionary</h1>
+          <input type="text" placeholder="e.g. disease">
+          <button type="button" id="findWord"><img src="images/glass.png" alt=""></button>
+    </header>
+    <h2 id="searchWord"></h2>
+    <ol id="listOne"></ol>
+    <h3 id="synonyms"></h3>
     <p id="synNoun"></p>
     <p id="synVerb"></p>
     <p id="synAdj"></p>
-
-    <h3>Word Bank</h3>
-    <ul id="listTwo">
-
-    </ul>
-
-
+    <h3 id="history"></h3>
+    <ul id="listTwo"></ul>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
