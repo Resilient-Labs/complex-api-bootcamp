@@ -1,0 +1,101 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  width: 100%;
+  background-color: #800020;
+  margin-bottom: 2rem;
+  float: left;
+}
+
+h1{
+  margin: 0px;
+  color: white;
+  padding: 1rem 2rem;
+  font-family: 'Sen', sans-serif;
+  font-weight: 100;
+  float: left;
+  font-size: 2rem;
+}
+
+input{
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid white;
+  float: left;
+  margin-top: 1.3rem;
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  float: left;
+  margin-top: 1.3rem;
+  margin-left: -1rem;
+}
+
+img{
+  width: 1.5rem;
+  padding: .1rem .5rem .09rem .5rem;
+}
+
+h2{
+  margin-left: 2rem;
+  font-size: 2rem;
+  clear:both;
+  font-family: 'Sen', sans-serif;
+  font-weight: 700;
+}
+
+h3{
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  clear:both;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  margin-left: 3.4rem;
+  clear:both;
+  font-family: 'Spartan', sans-serif;
+}
+
+li{
+  padding: .5rem 1rem;
+  clear:both;
+  font-family: 'Spartan', sans-serif;
+  line-height: 1.5;
+}
+
+ul{
+  list-style: none;
+  clear:both;
+}
+
+@media only screen and (max-width: 700px){
+
+header{
+  padding-bottom: 2rem;
+}
+
+h1{
+  text-align:center;
+  margin-left: 15%;
+}
+
+input{
+  margin-left: 20%;
+}
+
+button{
+  margin-top: 1.33rem;
+}
+
+}
