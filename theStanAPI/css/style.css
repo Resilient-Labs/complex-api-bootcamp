@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  align-content: center;
+}
+body {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  background-color: OrangeRed;
+}
+.header {
+  height: 200px;
+  width: 100%;
+  font-family: 'Righteous', cursive;
+}
+.header h1 {
+  font-size: 40px;
+}
+.header p {
+  font-size: 25px;
+}
+form {
+  height: 100px;
+  width: 60%;
+  margin: 50px auto;
+  font-family: 'Righteous', cursive;
+  margin-top: 3%;
+}
+#artistFlick {
+  width: 100%;
+  clear: both;
+}
+#showLyrics {
+  width: 50%;
+  float: left;
+  font-size: 30px;
+  font-family: 'Bungee Inline', cursive;
+}
+#artistInfo {
+  width: 50%;
+  float: left;
+  padding: 3%;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
