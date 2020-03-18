@@ -2,7 +2,7 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-![RandomTrumpandGiphy](ComplexApi.png)
+![RandomTrumpandGiphy](complex.png)
 
 # Technology Used:
 ### HTML, Javascript, Api, css
