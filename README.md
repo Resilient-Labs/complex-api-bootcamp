@@ -1,22 +1,17 @@
-# 📊 Project: Complex API 
+# Complex API: Medical Dictionary
+#### Project Scope: Enter a medical term in the input to fetch the definition through Merriam Webster's medical dictionary API and synonyms through the Big Huge Thesaurus API. 
+#### View here: https://svdev-dictionary.netlify.com
+![](complexApiOne/complexApi1.png)
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+# How it was made:
+#### HTML5, CSS3, Javascript E6, API, JSON
 
-### How to submit your code for review:
+# Optimizations:
+#### Search history is recorded in the bottom of the page to keep track of terms. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# Lesson Learned: 
+#### Keep in mind utility when developing applications. This entails creating features and incorporating API's that share relevancy with the product. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Source: 
+#### Merriam Webster: https://dictionaryapi.com/
+#### Big Huge Thesaurus: https://words.bighugelabs.com/site/api
