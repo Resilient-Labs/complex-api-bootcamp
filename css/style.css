@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+iframe{
+  width:50%;
+  margin-left: 23%;
+}
+body{
+  background-color: black;
+  background-size: cover;
+}
+
+#button{
+  font-size: 26px;
+    margin-left: 42%;
+    border: 4px black solid;
+}
+p{
+  text-align: center;
+  font-size: 25px;
+  color:white;
+}
+
+h1{
+  font-size: 48px;
+    margin-left: 17%;
+    color:red;
+}
