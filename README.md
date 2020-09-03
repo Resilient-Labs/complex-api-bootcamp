@@ -1,22 +1,13 @@
 # 📊 Project: Complex API 
+link: https://infallible-wiles-846eda.netlify.com/
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
+![alt text](Capture.PNG)
+### How I did it:
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- Made an input tag with type number to better allow scrolling, and to persuade the user to use numbers
+- Added an event listener to the input, activates on change
+- Used the input to get a Pokemon object from the Pokemon API
+- Took the name and used it to append to a hidden P tag
+- Used that same name as the search parameter in an API call to a giphy database
+- Pulled a giffy object from their database and used the image url to append to the page
