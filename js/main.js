@@ -24,6 +24,7 @@ const musicSearch = () =>{
         console.log("song preview", songPreview)
         document.querySelector('iFrame').classList.remove("hidden");
         document.querySelector('audio').classList.remove("hidden")
+        document.querySelector('.media').classList.remove("hidden")
         document.querySelector('#thumbnail').src = thumbnailCover;
         document.querySelector('#audio').src = songPreview;
 
