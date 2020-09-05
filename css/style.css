@@ -1,0 +1,16 @@
+.hidden{
+    display: none;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+  }
+  
+  h1{
+    color:#FFF;
+    text-align: center;
+  }
+  
