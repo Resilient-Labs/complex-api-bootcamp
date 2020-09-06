@@ -46,6 +46,7 @@
     background: #162a3b;
     color: #569ad5;
     border: 3px solid #162a3b;
+    cursor: pointer;
   }
 
   .media{
