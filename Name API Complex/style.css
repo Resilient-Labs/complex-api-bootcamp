@@ -1,0 +1,39 @@
+*{
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+}
+html{
+  background-image: url("back.jpg");
+  background-size: cover;
+}
+body{
+  background-color: white;
+  border: 2px solid black;
+  border-style: double;
+  width: 80%;
+  margin-left:10%;
+  margin-right: 10%;
+  height: 90vh;
+}
+.avaContain{
+  height: 100px;
+}
+img{
+  height: 100px;
+}
+#name, #last{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+p{
+  font-size: 1.5rem;
+}
+button{
+  padding: 1%;
+}
