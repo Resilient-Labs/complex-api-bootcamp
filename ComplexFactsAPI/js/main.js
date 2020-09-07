@@ -1,3 +1,6 @@
+// <!-- Worked on this Project with Rahma -->
+
+
 let search = document.querySelector("input").value;
 let btn = document.querySelector("button")
 btn.addEventListener("click",()=>{
@@ -17,6 +20,7 @@ fetch(`http://api.giphy.com/v1/gifs/random?api_key=${apikey}`)
   .then(response => {
     document.querySelector("img").src = response.data.image_url;
   })
+  //catches any errors that pop up or if there is no fact for the word
     .catch(err => {
       console.log(`error ${err}`);
       alert('no results for your search');
