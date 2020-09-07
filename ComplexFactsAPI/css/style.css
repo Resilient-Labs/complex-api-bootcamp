@@ -1,0 +1,43 @@
+/* <!-- Worked on this Project with Rahma --> */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:monospace;
+  font-weight: lighter;
+  background-image: url("background.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+h2, p{
+  color: white;
+}
+.holder{
+  width:70%;;
+  height: auto;
+  padding-bottom: 3%;
+  background-color: rgba(143, 148, 149, 60%);
+  margin-left: 15%;
+  margin-top: 3%;
+}
+p{
+  font-size: 18px;
+}
+h2{
+  font-size: 25px;
+  padding-top: 3%;
+}
+button{
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1.5%;
+  font-size: 12px;
+}
+input{
+  padding: 1.5%;
+  padding-right: 3%;
+}
