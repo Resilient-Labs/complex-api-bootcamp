@@ -1,0 +1,37 @@
+body{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  font-family: 'Mukta Vaani', sans-serif;
+  color: white;
+}
+.heading{
+  text-align: center;
+  height: 90%;
+ width:100%;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+.logo{
+  max-width: 50px;
+  max-height: 50px;
+}
+h1{
+  width: 200px;
+  display: inline-flex;
+}
+
+.inputSec{
+  display: flex;
+  justify-content: center;
+}
+.audioSec{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.imageSec{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
