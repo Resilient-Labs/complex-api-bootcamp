@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie API</title>
+  </head>
+  <body>
+  <section class="container">
+    <section class="top">
+    <h1>Enter a Movie Title</h1>
+    <form action="index.html" method="post">
+      <input type="text" name="" id="input" placeholder="Give me a keyword">
+    </form>
+    <button type="button" id="button">Give me a movie!</button>
+  </section>
+    <section class="content">
+      <section class="boxL">
+        <h2 id="title"></h2>
+        <img id="img" src="">
+      </section>
+      <section class="infoContainer">
+        <p id="score"></p>
+        <p id="lang"></p>
+        <p id="time"></p>
+        <p id="plot"></p>
+      </section>
+      <section class="boxR">
+        <h3 id="trailerHead"></h3>
+        <iframe id="trailer" src="" width="400" height="400"></iframe>
+      </section>
+    </section>
+  </section>
+  <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
