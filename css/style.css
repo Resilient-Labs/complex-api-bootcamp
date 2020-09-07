@@ -1,0 +1,70 @@
+.hidden{
+  display: none;
+}
+
+  body{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+ h1{
+    font-size: 7rem;
+    color: 	#585858;
+    font-family: 'Pacifico';
+
+  }
+
+  form{
+    text-align: center;
+  }
+
+
+  audio{
+    display: block;
+    margin: 25px auto;
+  }
+
+  iframe{
+    margin: 40px auto;
+
+  }
+
+  #song{
+    margin-right: 20px;
+    height: 1.5rem;
+    /* border: 3px solid #555; */
+  }
+
+
+  #artist{
+    margin-right: 20px;
+    height: 1.5rem;
+    /* border: 3px solid #555; */
+  }
+
+
+  #button {
+  	box-shadow: 0px 10px 14px -7px #2c8f9e;
+  	border-radius:8px;
+    font-size: 1.3rem;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:Arial;
+  	padding:9px 32px;
+    background-color:transparent;
+
+
+  }
+  #button:hover {
+  	background-color: lightgrey;
+  }
+  #button:active {
+  	position:relative;
+  	top:1px;
+  }
