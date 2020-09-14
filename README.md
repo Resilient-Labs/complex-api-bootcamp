@@ -1,22 +1,11 @@
-# 📊 Project: Complex API 
+# 📊 Project: Cat Facts using 2 API's
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+I returned data from one api to grab a random cat fact of over 500 selections. I then used this same data to make a request to another api to display the data in the Cat version of Pig-latin, Cat-Latin! I then call on a 3rd service to bring you a random picture of a cat from a large community driven database.
 
-### How to submit your code for review:
+**Link to project:** https://cat-factz.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](https://i.imgur.com/RimUF35.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript, and 3 different API's
