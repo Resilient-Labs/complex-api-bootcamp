@@ -1,7 +1,7 @@
 # 📊 Project: Search Song Lyrics
 
 # Week09 
-Goal : Learn API's by building a complex api. get results from and send that to another api.
+Goal : Learn API's by building a complex api. get results from one api and send that to another api.
 
 Languages Used HTML,CSS, and JAVASCRIPT
 
