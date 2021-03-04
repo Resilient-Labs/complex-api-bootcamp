@@ -18,6 +18,7 @@ const articles = document.querySelector('#articles')
 document.querySelector('button').addEventListener('click', clicky)
 
 function clicky() {
+  articles.innerHTML = ''
   fetch(urlNews)
     .then(res => res.json())
     // parse response as JSON
@@ -44,14 +45,21 @@ function clicky() {
 
         //Google Book Stuff Here
         let searchTerms = item.des_facet[0]
-        item.des_facet.forEach((item, i) => {
-          searchTerms += `+${item}`
-        });
+        for (var i = 1; i < 4; i++) {
+          searchTerms+= `+${item.des_facet[i]}`
+        }
+
+
+        // item.des_facet.forEach((item, i) => {
+        //   searchTerms += `+${item}`
+        // });
         console.log('****searchTerms:***')
         console.log(searchTerms)
 
         let booksHeader = document.createElement('h5')
         let ul = document.createElement('ul')
+
+
         console.log(`****Searching for Related Books for ${item.title}...***`)
 
         fetch(urlBooks+searchTerms)
@@ -94,6 +102,7 @@ function clicky() {
         //Append to DOM
         li.appendChild(url)
         li.appendChild(author)
+        li.appendChild(description)
         li.appendChild(booksHeader)
         li.appendChild(ul)
         articles.appendChild(li)
