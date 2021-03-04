@@ -24,9 +24,12 @@ function clicky() {
     // parse response as JSON
     .then(data => {
       console.log(data)
-      for (var i = 0; i < 1; i++) {
+
         //limiting to account for async
-        let item = data.results[i]
+        console.log(data)
+        let randomIndex = Math.floor(Math.random() * Math.floor(data.results.length))
+        console.log(randomIndex)
+        let item = data.results[randomIndex]
         console.log('****News Item:***')
         console.log(item);
         let url = document.createElement('a')
@@ -66,9 +69,9 @@ function clicky() {
           .then(res => res.json())
           // parse response as JSON
           .then(data2 => {
-            console.log(data2)
-            if(data2.totalItems){
-
+            // console.log(data2)
+            console.log(data2.items)
+            if(data2.items){
               booksHeader.innerText = 'Related Books'
               console.log('related Books')
               data2.items.forEach((item, i) => {
@@ -80,10 +83,16 @@ function clicky() {
                 console.log(item.volumeInfo.title)
 
                 let bookAuthor = document.createElement('p')
-                bookAuthor.innerText = `Author(s): `
-                item.volumeInfo.authors.forEach((authors, i) => {
-                  bookAuthor.innerText += `${authors}, `
-                });
+                //if authors exist
+                if (item.volumeInfo.authors){
+                  bookAuthor.innerText = `Author(s): `
+                  item.volumeInfo.authors.forEach((authors, i) => {
+                    bookAuthor.innerText += `${authors}, `
+                  });
+                } else {
+                  bookAuthor.innerText = 'No Author'
+                }
+
 
                 let liBook = document.createElement('li')
 
@@ -94,6 +103,8 @@ function clicky() {
 
               });
 
+            } else {
+              booksHeader.innerText = 'No Related Books Found'
             }
           })
           .catch(err => {
@@ -106,7 +117,7 @@ function clicky() {
         li.appendChild(booksHeader)
         li.appendChild(ul)
         articles.appendChild(li)
-      }
+
       // data.results.forEach((item, i) => {
       //
       // });
