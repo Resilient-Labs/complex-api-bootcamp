@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color:white;
+  font-size: 18px;
+  align-items: center;
+}
+
+
+h1 {
+  margin-left:33%;
+}
+button {
+  width: 55%;
+  align-items: center;
+  margin-left:25%;
+  height:25%;
+  font-size: 25px;
+  background-color: rgb(77, 211, 77);
+  font-weight: bold;
+
+}
+iframe{
+ margin-left:35%;
+
+  
+}
+
+#results{
+  margin-left:35%;
+}
+
+
+#character{
+  align-content: center;
+}
