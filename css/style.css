@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+body {
+  background: black url(https://images.unsplash.com/photo-1538745107549-b8fd176a0e98?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80) center no-repeat;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: lavender;
+  margin-left: 20px;
+}
+
+h1 {
+  color: lightgreen;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.yes {
+  font-size: 40px;
+}
+
+input {
+  margin-left: 20px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
