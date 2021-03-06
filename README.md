@@ -1,6 +1,6 @@
 # 🐱 PurrFact API 🐱
 
-<img src="https://github.com/DashlinS/api-purrfact/blob/answer/images/purrfact.gif" width="700">
+<img src="https://github.com/DashlinS/api-purrfact/blob/answer/images/purrfactdemo.gif" width="700">
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://purrfact.netlify.app/)
 
