@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+body{
+    background-image: url(../pic/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(113, 27, 130, 0.2);
+    /* height: 100vh; */
+    padding: 0;
+    margin: 0;  
+}
+.secTitle{
+    display: grid;
+    justify-content: center;
+}
+
+h1, input, button {
+    font-size: 5rem;
+}
+
+h1{
+    border: .3rem solid white;
+    width: 100%;
+    text-align: center;
+    background-color: azure;
+}
+h2{
+    font-size: 3rem;
+}
+
+.inputSearch{
+    text-align: center;
+}
+
+.secDefinitionAndPhoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.h2Definition{
+    border: .3rem solid white;
+    width: 70%;
+    background-color: azure;
+    text-align: center;
+}
+
+.h2Photo{
+    width: 100%;
+    text-align: center;
+}
+
+#imgPhoto1{
+    border: .4rem solid white;
+}
