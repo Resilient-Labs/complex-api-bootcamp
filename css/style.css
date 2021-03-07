@@ -10,6 +10,13 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+html{
+  font-size: 62.5%;
+}
+body{
+  background: url(../img/ironThrone.jpeg);
+  background-size: cover;
+}
 img{
   display: block;
   margin: 0 auto;
