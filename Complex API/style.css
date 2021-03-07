@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    animation: backdrop 1.25s linear infinite;
+    transition: 4s;
+    height: 1400px;
+    background-repeat: no-repeat;
+    font-family: 'Akaya Telivigala', cursive;
+}
+@keyframes backdrop {
+    0%{
+        background-image: repeating-linear-gradient(180deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    3%{
+        background-image: repeating-linear-gradient(190deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    6%{
+        background-image: repeating-linear-gradient(200deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    9%{
+        background-image: repeating-linear-gradient(210deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    12%{
+        background-image: repeating-linear-gradient(220deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    15%{
+        background-image: repeating-linear-gradient(230deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    18%{
+        background-image: repeating-linear-gradient(240deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    21%{
+        background-image: repeating-linear-gradient(250deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    24%{
+        background-image: repeating-linear-gradient(260deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    27%{
+        background-image: repeating-linear-gradient(270deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    30%{
+        background-image: repeating-linear-gradient(280deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    33%{
+        background-image: repeating-linear-gradient(290deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    36%{
+        background-image: repeating-linear-gradient(300deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    39%{
+        background-image: repeating-linear-gradient(310deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    42%{
+        background-image: repeating-linear-gradient(320deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    45%{
+        background-image: repeating-linear-gradient(330deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    48%{
+        background-image: repeating-linear-gradient(340deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    51%{
+        background-image: repeating-linear-gradient(350deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    54%{
+        background-image: repeating-linear-gradient(360deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    57%{
+        background-image: repeating-linear-gradient(370deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    60%{
+        background-image: repeating-linear-gradient(380deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    63%{
+        background-image: repeating-linear-gradient(390deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    66%{
+        background-image: repeating-linear-gradient(400deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    69%{
+        background-image: repeating-linear-gradient(410deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    72%{
+        background-image: repeating-linear-gradient(420deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    75%{
+        background-image: repeating-linear-gradient(430deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    78%{
+        background-image: repeating-linear-gradient(440deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    81%{
+        background-image: repeating-linear-gradient(450deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    84%{
+        background-image: repeating-linear-gradient(460deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    87%{
+        background-image: repeating-linear-gradient(470deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    90%{
+        background-image: repeating-linear-gradient(480deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    93%{
+        background-image: repeating-linear-gradient(490deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    96%{
+        background-image: repeating-linear-gradient(500deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    99%{
+        background-image: repeating-linear-gradient(510deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+    100%{
+        background-image: repeating-linear-gradient(520deg, rgb(238, 110, 132), rgb(240, 87, 169) 2780px);
+    }
+  }
+main{
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.596), white, white, transparent);
+    width: 1000px;
+    height: 1200px;
+    border-top-left-radius: 145px;
+    border-top-right-radius: 145px;
+}
+.recipcontainer{
+    width: 25%;
+    float: left;
+    height: 297px;
+    margin-bottom: 25px;
+}
+img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.results{
+    margin-top: 88px;
+}
+
+.name0, .name1, .name2, .name3, .name4, .name5, .name6, .name7{
+    font-weight: bold;
+    margin: 10px 10px 5px 13px;
+}
+
+.calories0, .calories1, .calories2, .calories3, .calories4, .calories5, .calories6, .calories7{
+    margin: 0px 0px 0px 13px;
+}
+.by0, .by1, .by2, .by3, .by4, .by5, .by6, .by7{
+    margin: 3px 0px 0px 13px;
+    font-style: italic;
+    color: darkgray;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+input{
+    position: absolute;
+    top: 10%;
+    width: 317px;
+    left: 28%;
+    height: 42px;
+    border-radius: 15px;
+    border: 1px dotted plum;
+}
+button{
+    position: absolute;
+    top: 10%;
+    left: 61%;
+    height: 40px;
+    width: 130px;
+    background: plum;
+    color: white;
+    font-size: 19px;
+    border-radius: 9px;
+    border: 1px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: pink;
+}
+img:hover{
+    border: 3px solid pink;
+}
+input::placeholder{
+    color: rgba(228, 7, 44, 0.507);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 17px;
+
+}
+.recipcontainer.gif.left{
+    background-image: url(cat.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -4%;
+    left: 2%;
+}
+.recipcontainer.gif.right{
+    background-image: url(cat.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -4%;
+    left: 77%;
+}
+.recipcontainer.hotdog, .recipcontainer.recipcontainer.burger, .recipcontainer.taco, .recipcontainer.bread{
+    margin-top: 35px;
+}
+.recipcontainer.noodle, .recipcontainer.pancake, .recipcontainer.cupcake, .recipcontainer.drink{
+    margin-bottom: 70px;
+}
+.recipcontainer.burger{
+    background-image: url(burger.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40% 36%;
+
+}
+.recipcontainer.hotdog{
+    background-image: url(hotdog.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40% 36%;
+}
+.recipcontainer.taco{
+    background-image: url(taco.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40% 36%;
+}
+.recipcontainer.bread{
+    background-image: url(bread.gif);
+    background-repeat: no-repeat;
+    background-size: 46%;
+    background-position: 40% 36%;
+}
+.recipcontainer.drink{
+    background-image: url(drink.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40% 36%;
+}
+.recipcontainer.cupcake{
+    background-image: url(cupcake.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40% 36%;
+}
+.recipcontainer.pancake{
+    background-image: url(pancake.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40% 36%;
+}
+.recipcontainer.noodle{
+    background-image: url(noodle.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40% 36%;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+.youtube{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-image: linear-gradient(180deg, white, white, transparent, transparent);
+}
+.youtubevideo{
+    float: left;
+    width: 25%;
+    height: 297px;
+    margin-top: 40px;
+}
+.youtubevideo.sushi{
+    background-image: url(sushi.gif);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 40% 36%;
+}
+.youtubevideo.pizza{
+    background-image: url(pizza.gif);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 40% 36%;
+}
+.youtubevideo.egg{
+    background-image: url(egg.gif);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 40% 36%;
+}
+.youtubevideo.burrito{
+    background-image: url(burrito.gif);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 40% 36%;
+}
+iframe{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+.arrow{
+    width: 65px;
+    position: absolute;
+    top: 72%;
+    left: 103%;
+}
+.youtubevideo p{
+    font-weight: bold;
+    width: 90%;
+    margin: 5px 0px 0px 13px;
+}
+
+.yt.gif.right{
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 40% 36%;
+    top: 71%;
+    left: 45%;
+    position: absolute;
+    background-image: url(tenor.gif);
+    height: 200px;
+    width: 1000px;
+}
+.yt.gif.left{
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 40% 36%;
+    top: 71%;
+    left: -31%;
+    background-image: url(tenor.gif);
+    height: 200px;
+    position: absolute;
+    width: 1000px;
+    
+}
