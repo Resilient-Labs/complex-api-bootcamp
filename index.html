@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Movie Search</title>
+		<h1>Search for your favorite movies</h1>
+		<section>
+			<input id="movieSearch" type="text" name="movieSearch" value="">
+			<button id="search" type="button" name="button">Search</button>
+
+		</section>
+		<section>
+			<!-- for omdb data.title -->
+			<h1 id="movieTitle"></h1>
+			<!-- for omdb data.poster src -->
+			<img id="moviePoster" src="" alt="">
+			<!-- for data.actors -->
+			<h2 id="movieCast"></h2>
+			<!-- for data.director -->
+			<h3>directed by:<span id= "movieDirector"></span> </h3>
+			<!-- for omdb data.rating & year -->
+			<h4> rated: <span id="movieYear"></span> released in: <span id="movieRating"></span></h4>
+		</section>
+		<!-- nyt review api results -->
+		<section>
+			<h2 id="reviewHeadline"></h2>
+			<h3>NYT Review by: <span id="critic"></span></h3>
+			<h4><a id ="reviewLink" href="">Go to full review </a> </h4>
+			<p id="summary"></p>
+		</section>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
