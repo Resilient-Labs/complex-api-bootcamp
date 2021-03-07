@@ -2,7 +2,6 @@ document.querySelector('button').addEventListener('click', getFacts)
 
 function getFacts() {
 
-
   let catUrl = `https://api.thecatapi.com/v1/images/search`
   fetch(catUrl)
     .then(res => res.json())
