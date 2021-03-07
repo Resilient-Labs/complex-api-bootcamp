@@ -1,0 +1,17 @@
+ul {
+    column-count: 5;
+    border: 2px solid black;
+    height: 2025px;
+}
+li {
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 225px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+}
