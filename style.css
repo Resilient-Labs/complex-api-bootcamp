@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5;
+}
+
+body {
+  text-align: center;
+  background-color: orange;
+}
