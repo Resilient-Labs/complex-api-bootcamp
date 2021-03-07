@@ -1,8 +1,11 @@
-# 📊 Project: Complex API 
+# 📊 Project: Complex API
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
 ### How to submit your code for review:
+
+
+<img src="/img/screenshot.PNG" alt="GameOfThrones" style="height: 100px; width:100px;"/>
 
 - Fork and clone this repo
 - Create a new branch called answer
@@ -18,5 +21,5 @@ Example:
 ```
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+I want to improve the CSS on here.
 ```
