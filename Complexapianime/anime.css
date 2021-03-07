@@ -1,0 +1,11 @@
+.one{
+    box-sizing: border-box 2px solid red;
+    box-shadow: 0 2px 8px rgb(39, 39, 39);
+    width: 700px;
+    height: auto;
+    text-align: center;
+    background-color: grey;
+}
+body{
+    background-image: url('ha.gif');
+}
