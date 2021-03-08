@@ -1,22 +1,22 @@
-# 📊 Project: Complex API 
+# 🐱 PurrFact API 🐱
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+<img src="https://github.com/DashlinS/api-purrfact/blob/answer/images/purrfactdemo.gif" width="700">
 
-### How to submit your code for review:
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://purrfact.netlify.app/)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Languages used:** Html, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned 
+
+This is PurrFact! Where with one click, You'll get a Kitty image and fact! Three API were used in making this project. Includes Cat fact, Cat Image and generator API  used to combined both fact and image into one singular meme! 
+
+### My Other Projects 
+
+Check out some of the other projects I have made working with API!
+
+* [NASA Weather API - Complex](https://github.com/DashlinS/api-complex-nasa/tree/answer)
+* [POKEDEX API](https://github.com/DashlinS/api-Pokedex/tree/answer)
+* [Wise Kanye - API](https://github.com/DashlinS/api-KanyeQuotes/tree/answer)
+* [World News API](https://github.com/DashlinS/NewsRoundTheWorld/tree/answer)
+* [NASA Weather API - Simple](https://github.com/DashlinS/simple-nasa-api-bootcamp/tree/answer)
+* [Weather API](https://github.com/DashlinS/weather-api-bootcamp/tree/answer)
