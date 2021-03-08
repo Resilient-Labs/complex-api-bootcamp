@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url('https://7wallpapers.net/wp-content/uploads/20_Game-Of-Thrones.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center{
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 15%;
+}
+h1{
+  font-size: 60px;
+  margin-bottom: 10px;
+  padding-top: 5%;
+}
+
+
+h2{
+  font-size: 20px;
+}
+section.content{
+  margin: 0 15%;
+}
+
+button{
+  border-radius: 60px;
+  background-color: maroon;
+  color: white;
+}
+
+.quotePersonHouse{
+  padding-bottom: 5%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
