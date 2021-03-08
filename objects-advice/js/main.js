@@ -20,7 +20,7 @@ fetch(urlTwo)
 .then(data => {
 console.log(data)
 // document.querySelector('.reg2').innerText = data.contents.text
-document.querySelector('.pir').innerText = data.contents.translated
+document.querySelector('.pir').innerText = 'Mr.Chef says: ' + data.contents.translated
 })
 .catch(err => {
   console.log(`error ${err}`)
@@ -34,7 +34,7 @@ fetch(url)
 .then(data => {
 console.log(data)
 // document.querySelector('.reg2').innerText = data.contents.text
-document.querySelector('.pir2').innerText = data.contents.translated
+document.querySelector('.pir2').innerText = 'Mr.Pirate says: ' + data.contents.translated
 // document.querySelector('span').innerText = data.contents.translation
 // document.querySelector('').innerText += data.
 
