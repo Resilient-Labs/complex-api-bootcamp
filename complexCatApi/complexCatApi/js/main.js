@@ -1,4 +1,4 @@
-//Property of GardnerGang
+//worked with gardner gang, wade, dash, asaianna
 document.querySelector('button').addEventListener('click',catMeme)
 function catMeme(){
   let outside
