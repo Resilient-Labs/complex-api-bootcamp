@@ -27,8 +27,7 @@ function getSuggest(artist){
     .then( res => res.json())
     .then(data =>{
         console.log(data)
-        document.querySelector("#suggestions").innerHTML = `<ul> ${data.data.map((item)=>`<li>${item.artist.name}, by ${item.title}</li><button id="btnTwo" data-artist="${item.artist.name}" data-song="${item.title}">Get Lyrics</button>`).join("")}</ul>`
-
+        document.querySelector("#suggestions").innerHTML = `<ul> ${data.data.map((item)=>`<li>${item.title}, by ${item.artist.name} </li><button id="btnTwo" data-artist="${item.artist.name}" data-song="${item.title}">Get Lyrics</button>`).join("")}</ul>`
     })
     
 }

@@ -1,5 +1,63 @@
-
+*{
+    margin:0px;
+    padding:
+}
 
 #getSuggestion{
     display:none;
+}
+
+#btnTwo{
+    display:none;
+}
+
+body{
+    background-image: url("https://media.giphy.com/media/18U4pTzJWZiP6/source.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Unica One', cursive;
+    margin-bottom: 27px;
+}
+
+.songWords{
+    margin-left:38%;
+    margin-bottom: 27px;
+
+}
+
+#results{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#getSuggestion{
+    margin-left: 46%;
+    margin-bottom: 18px;
+    background-color: #FFE19C;
+}
+
+#suggestions{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    margin-bottom: 18px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button:hover{
+    background-color: #34A6FA;
 }
