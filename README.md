@@ -2,21 +2,11 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Screenshot (277)](https://user-images.githubusercontent.com/77593772/117383957-e2a66e80-aeaf-11eb-90d4-8012bdfa5497.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I wanted to create an app for anime watchers to find a new anime show to watch. also returns a famous quote and character from that show to give some insight on what it is about.
+
+### How it was made
+
+so the goal here was to take one api and make it request information for another api. When you click on generate it returns a anime quote from a character, then when you get the name of the anime it pulls a request to another api that displays the cover art, synopsis, and date aired.
