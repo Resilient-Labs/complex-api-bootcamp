@@ -1,0 +1,27 @@
+<!-- music api -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Album Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Album Search</h1>
+      <img class="logo" src="img/music2.gif" alt="">
+      <form class="form">
+        <input id="song" type="text" placeholder="Song Name" name="" value="">
+        <input id="artist" type="text" placeholder="Artist Name" name="" value="">
+        <input id="button" type="submit" class="fas fa-music" value="&#xf001">
+      </form>
+      <section class="media hidden">
+        <iframe id="thumbnail" class="hidden" src="" width="100px" height="100px"></iframe>
+        <audio class="hidden" id="audio" src="" controls></audio>
+      </section>
+      <script type="text/javascript" src="js/main.js"></script>
+    </section>
+  </body>
+</html>
