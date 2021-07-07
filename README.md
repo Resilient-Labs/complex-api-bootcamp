@@ -1,22 +1,12 @@
-# 📊 Project: Complex API 
+# 📊 Project: Search Song Lyrics
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+# Week09 
+Goal : Learn API's by building a complex api. get results from one api and send that to another api.
 
-### How to submit your code for review:
+Languages Used HTML,CSS, and JAVASCRIPT
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+[Link to the Website hosted on Netlify](https://get-songlyrics.netlify.app/)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Website image](https://i.imgur.com/0Jdr6H7.png)
+
+
