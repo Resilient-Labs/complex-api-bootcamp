@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0 auto;
+font-family: 'Bree Serif', serif;
+
+}
+img{
+  width:50%;
+  height:300px;
+}
+h3{
+  color:black;
+  font-family: 'Bree Serif', serif;
+}
+button{
+  font-family:'Bree Serif', serif;
+  cursor:pointer;
+  padding:3px;
+  font-size: 20px;
+}
+.cursor{
+  cursor: alias;
+}
+input{
+  width:35%;
+  height:34px;
+}
