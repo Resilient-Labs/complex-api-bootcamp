@@ -1,22 +1,17 @@
 # 📊 Project: Complex API 
+## Star Wars Age
+With this intergalactical website, find out the *real* age of your favorite Star Wars characters.  
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+**Link to site:** https://starwarsage-nktruong.netlify.app/
 
-### How to submit your code for review:
+## APIs used
+1. Star Wars API: https://swapi.dev/
+2. Agify API: https://agify.io/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## A Picture of the Simple Website:
+![Jango Fett's estimated age is 67](https://user-images.githubusercontent.com/88857875/135514943-d457f18f-5bc7-4dfc-b1c9-d5f72f8dbedc.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## How It's Made:
+
+**Tech used:** HTML, JavaScript
