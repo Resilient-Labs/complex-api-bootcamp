@@ -5,8 +5,8 @@ With this intergalactical website, find out the *real* age of your favorite Star
 **Link to site:** https://starwarsage-nktruong.netlify.app/
 
 ## APIs used
-Star Wars API: https://swapi.dev/
-Agify API: https://agify.io/
+1. Star Wars API: https://swapi.dev/
+2. Agify API: https://agify.io/
 
 ## A Picture of the Simple Website:
 ![Jango Fett's estimated age is 67](https://user-images.githubusercontent.com/88857875/135514943-d457f18f-5bc7-4dfc-b1c9-d5f72f8dbedc.png)
