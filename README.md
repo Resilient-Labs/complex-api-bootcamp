@@ -1,22 +1,12 @@
-# 📊 Project: Complex API 
+<img src = "translator.gif" width= 98%>
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+## 📚 Goal
+User can input a word in either English or Spanish and receive a translation, and a picture with an image description of the translation.
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## 📚 How it's made
+Made using HTML, CSS, Javascript, API and JSON. This is also a mobile, tablet, and desktop responsive.
+
+## 📚 Lesson Learned
+It's cool to make practical sites that users can interact with easily. It doesn't feel too complex to have APIs interact with each other. But I'm really excited to keep learning new tools for making user requests more collaborative between coders and people who create databases.

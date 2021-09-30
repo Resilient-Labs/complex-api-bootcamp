@@ -1,0 +1,91 @@
+body{
+   background-color: rgb(255,249,229);
+   background-image: url('guy.png');
+   background-size: cover;
+   text-align: center;
+}
+
+.wholeThing{
+    border: 4px solid black;
+    width:50%;
+    margin: auto;
+    border-radius: 8px;
+    height:500px;
+    margin-top:7%;
+    font-family: 'Inconsolata', monospace;
+    background: white;
+}
+
+.title{
+    border-bottom:3px solid black;
+    height:10%;
+}
+
+h1{
+    font-size:35px;
+    margin-top:2%;
+}
+input, select, button{
+    font-family: 'Inconsolata', monospace;
+ font-size:20px;
+ border-radius: 8px;
+ border:1px solid black;
+ padding:1%;
+}
+select{
+    padding:1%;
+}
+
+#underTitle{
+    padding:2%;
+}
+
+#imageResult{
+width:25%;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1250px){
+    body{
+        background-image:none;
+    }
+    .title{
+        height:19%;
+    }
+    input{
+        width:25%;
+    }
+    #description{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+    @media screen and (max-width: 600px){
+h1{
+    font-size:35px;
+}
+.title{
+    height:23%;
+}
+#underTitle{
+    padding-left:4%;
+    padding-right:4%;
+}
+select{
+    width:28%;
+}
+button{
+    width:55%;
+    margin:15px;
+}
+input{
+    width:50%;
+}
+.wholeThing{
+    height: 550px;
+    width:60%;
+}
+#description{
+    padding-left:10%;
+    padding-right:10%;
+}
+    }
