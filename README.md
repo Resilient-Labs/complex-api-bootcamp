@@ -1,22 +1,13 @@
-# 📊 Project: Complex API 
+# 👋 language Translator API 
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
+### link to Project : https://emslangueapi.netlify.app/
+![Screen Shot 2021-10-02 at 4 14 13 PM](https://user-images.githubusercontent.com/89624071/135730914-49c80ea4-faa2-4229-846a-f0297709e4e7.png)
 
-### How to submit your code for review:
+### How It's Made: 
+Tech used: HTML, CSS, JavaScript API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<h2> Helps users communicate help users communicate effectively in Spanish and English.</h2>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Lessons Learned:
+API application connects to the Internet and sends data to a server.
