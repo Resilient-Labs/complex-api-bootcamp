@@ -1,3 +1,6 @@
+
+// // collaborated with team hayden to complete group projects 
+
 document.querySelector('button').addEventListener('click', generate)
 let searchInput = document.querySelector('input')
 let select = document.querySelector('select')
@@ -27,3 +30,4 @@ function getImage(word) {
             document.querySelector('#imageResult').src = data.results[0].urls.regular
         })
 }
+// collaborated with team hayden to complete group projects 
