@@ -1,0 +1,42 @@
+body{
+    background: url(..//wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:690px;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 55px;
+    color: black;
+  }
+  
+  main{
+    background: rgba(255, 255, 255, .5);
+    height: 500px;
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border: 2px solid white;
+  }
+  
+  button{
+    margin-top: 3%;
+    margin-left: 45%;
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+  }
+  
+  iframe{
+    margin-left: 40%;
+    border: none;
+  }
+  
+  h2{
+    text-align: center;
+  }
