@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img{
+    display: none;
+    height: 300px;
+    width: 300px;
+}
+
+ul li{
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    line-height: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+
+h1{
+    text-align: center;
+}
+span{
+    color: rgb(27, 27, 70);
+    font-size: 15px;
+}
+
+.smallContainer{
+    display: flex;
+    justify-content:center ;
+}
+
+input{
+    height: 30px;
+    margin-right: 10px;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bigContainer{
+    display: flex;
+    justify-content: center;
+}
