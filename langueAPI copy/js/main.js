@@ -3,7 +3,7 @@ let searchInput = document.querySelector('input')
 let select = document.querySelector('select')
 
 function generate() {
-    const url = (`https://www.dictionaryapi.com/api/v3/references/spanish/json/${searchInput.value}?key=7e656ac9-c40b-474f-8e8e-7daf897cc7be`)
+    const url = (`https://www.dictionaryapi.com/api/v3/references/spanish/json/${searchInput.value}?key=redacted`)
     fetch(url)
         .then(res => res.json())
         .then(data => {
