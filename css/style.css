@@ -1,0 +1,63 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../img/15710504898649f93190a5626de1a74c.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  color:rgb(81 85 130);
+}
+div{
+  display: block;
+  margin: 0 auto;
+  width: 30em;
+}
+
+
+h1{
+  color:rgb(81 85 130);
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Architects Daughter', Arial, Helvetica, sans-serif ;
+}
+
+input{
+  width: 10em;
+}
+button{
+  background-color: rgb(81 85 130);
+  border:none;
+  width: 6em;
+}
+
+p{
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  color: rgb(81 85 130);
+
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  width:20em;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
