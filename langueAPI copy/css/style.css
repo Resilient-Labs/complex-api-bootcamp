@@ -1,0 +1,14 @@
+h1{
+  text-align: center;
+  color: rgb(96,199,200);
+}
+.user{
+  text-align: center;
+  color: rgb(138,46,137);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+  background-image: url(istockphoto-1181470320-612x612.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1450px;
+}
