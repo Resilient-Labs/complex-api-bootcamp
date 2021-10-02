@@ -14,7 +14,7 @@ function getLyrics() {
             document.querySelector('h2').innerText = data[0].character
             document.querySelector('p').innerText = `"${data[0].quote}"`
             
-            const photoUrl = `http://api.giphy.com/v1/gifs/search?api_key=Y9VUwomfizbVbFIhKqMA0So3Uw5IUr30&q=${data[0].character}`
+            const photoUrl = `http://api.giphy.com/v1/gifs/search?api_key=KEY&q=${data[0].character}`
             
             fetch(photoUrl)
                 .then(res => res.json())
