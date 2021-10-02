@@ -1,0 +1,63 @@
+*{
+    align-items: center;
+    overflow: hidden;
+}
+body{
+    background-color: #320E3B;
+    display:flex;
+    flex-direction:row;
+}
+
+section{
+    border: black solid 1px;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+}
+
+.search{
+    background-color: #6B7FD7;
+}
+.search:hover{
+    background-image: url(ellis.jpg);
+}
+.appearance{
+    background-color: #DDFBD2;
+}
+.appearance:hover{
+    background-image: url(passy.jpg);
+    color:white;
+}
+.results{
+    background-color: #4C2A85;
+    color: #ffefe3;
+}
+.results:hover{
+    background-image: url(sweet.jpeg);
+    color: black;
+}
+.speech{
+    background-color: #BCEDF6;
+}
+.speech:hover{
+    background-image: url(pittman.jpeg);
+}
+
+.synonyms{
+    background-color: #DDFBD2;
+    margin-bottom: 20px;
+    
+}
+.synonyms:hover{
+    background-image: url(ellis.jpg);
+}
+#synoResults{
+    width: 75%;
+    word-wrap: break-word;
+}
+
+
+
+/* .center{
+    
+} */
