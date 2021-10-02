@@ -15,7 +15,7 @@ function getCharacter() {
       // We're pulling the name from HTML
       document.querySelector('h2').innerText = "You are: " + data.name
 
-      const giphy = `https://api.giphy.com/v1/gifs/search?api_key=k01Icv6l9EIf1JbL8g82FECnv7Pt7Q7D&q=${data.name}`
+      const giphy = `https://api.giphy.com/v1/gifs/search?api_key=&q=${data.name}`
 
       fetch(giphy)
         .then(res => res.json()) // parse response as JSON 
