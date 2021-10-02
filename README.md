@@ -2,21 +2,18 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+The project that I created generates random Pokemon gifs.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Link to project: https://eloquent-shirley-a95a68.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="1437" alt="Screen Shot 2021-10-01 at 8 55 57 PM" src="https://user-images.githubusercontent.com/88958905/135699606-2c71ff24-7e54-460b-be8b-8c071ac4780a.png">
+
+### How It's Made:
+Tech used: HTML, CSS, JavaScript
+I searched for two api's that could be interlated. I then took data from the first API and created varibles to run within the second API.
+
+
+
+
+### Lessons Learned:
+This project taught me how to properly nest a fetch. I also learned that you can reference multiple varibles within the fetch.
