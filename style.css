@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navBar {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid gainsboro;
+  float: left;
+}
+
+.navBar li {
+  height: 50px;
+  display: inline;
+  padding: 20px;
+}
+#world {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#heading {
+  font-family: "chomsky";
+  font-size: 25px;
+  margin-left: 310px;
+}
+
+button {
+  margin-top: 5px;
+  float: right;
+}
+.right {
+  margin-right: 50px;
+  padding: 7px;
+  width: 7%;
+  height: 35px;
+  justify-content: center;
+  background-color: rgb(69, 103, 130);
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+.log {
+  margin-right: 10px;
+  padding: 7px;
+  width: 15%;
+  height: 35px;
+  justify-content: center;
+  background-color: rgb(69, 103, 130);
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+.secondSection {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+.secondSection img {
+  height: 270px;
+  margin-left: 190px;
+  margin-top: 20px;
+}
+a {
+  width: 85%;
+  text-align: center;
+  /* a element is always in line 8*/
+  display: block;
+  color: #333;
+  /* margin-top: 16px;
+  margin-bottom: 16px; */
+}
+p {
+  width: 80%;
+  text-align: center;
+}
+
+img {
+  height: 350px;
+  margin-left: 250px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+}
+#worldHeadlines {
+  margin-top: 50px;
+  margin-left: 200px;
+}
