@@ -1,0 +1,117 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     /* font-family: Helvetica, Arial, sans-serif; */
+     background-image: url(https://images.unsplash.com/photo-1605751216159-fc4057eba116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80);
+     background-size: cover;
+     background-repeat: no-repeat;
+     font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+     text-align: center;
+     color: white;
+     font-size: 3rem;
+}
+
+.fetch-container{
+     text-align: center;
+}
+
+.results-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.results-ul{
+     min-width: 30%;
+}
+
+.list-section{
+     margin: 0.5rem;
+     border: solid blue;
+     font-size: 1.2rem;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+.list-section-two{
+     margin: 0.5rem;
+     border: solid blue;
+     font-size: 1.2rem;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+.list-li{
+     flex: 1;
+     padding: 0 0.5rem;
+     font-size: 2rem;
+}
+
+img{
+	max-width: 75%;
+	max-height: 50rem;
+	margin: 0 auto;
+}
+
+iframe{
+     max-width: 75%;
+	max-height: 100rem;
+	margin: 0 auto;
+}
+
+h2{
+     color: white;
+     font-size: 2rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
