@@ -18,8 +18,8 @@ function getLyrics() {
             
             fetch(photoUrl)
                 .then(res => res.json())
-                .then(gifData => {
-                    document.querySelector('iframe').src = gifData.data[0].embed_url
+                .then(data => {
+                    document.querySelector('iframe').src = data.data[0].embed_url
                 })
 
                 .catch(err => {
