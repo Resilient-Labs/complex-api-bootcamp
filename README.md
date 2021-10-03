@@ -1,22 +1,21 @@
-# 📊 Project: Complex API 
+This is a Elmer Fudd food app that returns a recipe with a photo and directions in Elmer Fudd translation.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+Link to Project: [https://juliedodev-complexapi1.netlify.app]
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="complexapi1.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+How It's Made;
+
+Tech used: 
+<ul>
+<li>HTML<li>
+<li>CSS</li>
+<li>JavaScript<li>
+</ul>
+
+Optimizations:
+
+Lesson Learned:
+
+I learned how to write a fetch statement and use an API to translate the data.

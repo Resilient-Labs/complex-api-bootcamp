@@ -1,0 +1,68 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  .alignright {
+      float: right;
+      padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  }
+  
+  .alignleft {
+      float: left;
+      padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  }
+  
+
+  body {
+    background-attachment: fixed;
+    background-image: url('https://static.wikia.nocookie.net/antagonists/images/6/6b/Elmer_Fudd_-_LT.jpeg/revision/latest?cb=20150430024415');
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    font-size: 1.3em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: right;
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  img{
+    max-height: 50rem;
+    margin: 0 auto;
+    max-width: 75%;
+  }
+  
+  .div{
+    flex-direction: column;
+     display: flex;
+       
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
