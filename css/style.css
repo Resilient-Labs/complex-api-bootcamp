@@ -1,0 +1,33 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    font-family: "comic sans";
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #99ffff;
+  }
+
+main img{
+  margin: 25px 0;
+}
+
+button{
+  color: #99ffff;
+  background-color: rgba(251,174,137,1);
+  font-size: 16px;
+  font-weight: 700;
+  border: rgba(251,174,137,1);
+  border-radius: 12px;
+}
+
+section {
+    background-image: url("https://unsplash.com/photos/NRQV-hBF10M");
+}
