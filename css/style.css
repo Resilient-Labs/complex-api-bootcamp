@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  font-size: 1rem;
+}
+
+h1, h2{
+  width: 100%;
+  text-align: center;
+}
+
+#artistDisplay{
+  font-size: 1rem;
+}
+
+input, button{
+  width: 30%;
+  margin: 1%;
+  float: left
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
