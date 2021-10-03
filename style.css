@@ -1,0 +1,39 @@
+
+body{
+		background-color:#97BC62FF;  
+		color: #2C5F2D; 	
+	
+
+}
+
+button{
+	background-color: rgb(187, 209, 63); 
+}
+#sec, h2, img {
+		text-align: center; 
+		justify-content: center;
+		align-items: center; 
+		/* border-top: 10%;   */
+}
+#pic{
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 10%; 
+		margin-right: 10%; 
+		margin-bottom: 10%; 
+	  
+	  
+}
+	  
+img{
+		margin: left auto; 
+		margin: right auto; 
+		text-align: center; 
+	  
+}
+	  
+img{max-width: 100%}
+img{height:60vh;}
+
