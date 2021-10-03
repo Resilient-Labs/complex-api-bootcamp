@@ -30,7 +30,7 @@ function getTheInfo() {
       document.querySelector("#partOfSpeech").innerText =
         data[0].meanings[0].partOfSpeech;
 
-      let url2 = `https://dictionaryapi.com/api/v3/references/thesaurus/json/${wordRef}?key=09f787d1-63c3-45a0-b87e-2fc791bc64ff`;
+      let url2 = `https://dictionaryapi.com/api/v3/references/thesaurus/json/${wordRef}?key=use_your_own_key`
       fetch(url2)
         .then((res) => res.json())
         .then((data) => {
