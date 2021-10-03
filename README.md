@@ -1,22 +1,35 @@
-# 📊 Project: Complex API 
+# Dogs! Dogs! Dogs! 
+This project is an website with an API that takes information from another API. A random dog is shown with a description and breed. breed information is used to find adoptable dogs of that breed in the United States. 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+**Link to project:** 
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, Javascript
+
+To make this API based website we are going to be using Javascript and fetch syntax to work with the API interfaces.
+
+what the first API does:
+get a random breed
+get information of that random breed
+get an image of the random breed
+
+what the second API does:
+collects random breed from first API and be able to look up if that breed is available for adoption
+plugging in breed to the fetch url to give me object data for that specific breed.
+be able to grab adoption organization data and insert into HTML
+
+
+
+## Optimizations
+
+
+## Lessons Learned:
+
+A great takeaway for this project would be using for loops to deal with the parsed JSON data. using a for loop you can grab specific values, assign them to variables, and use them as parameters in other API interfaces.
+
+## Examples:
+
+
