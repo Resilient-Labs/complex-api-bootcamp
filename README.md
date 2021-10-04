@@ -2,7 +2,7 @@
 
 <b>project link coming soon</b>
 
-<img src='appscreenshot.png>
+<img src='appscreenshot.png'>
 
 ### How It’s Made
 
