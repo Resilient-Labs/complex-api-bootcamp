@@ -2,7 +2,7 @@
 
 <b>project link coming soon</b>
 
-![image of website](complex-api-bootcamp/appscreenshot.png)
+<img src='appscreenshot.png>
 
 ### How It’s Made
 
