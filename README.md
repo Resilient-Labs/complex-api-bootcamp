@@ -14,4 +14,14 @@ With this intergalactical website, find out the *real* age of your favorite Star
 
 ## How It's Made:
 
-**Tech used:** HTML, JavaScript
+**Tech used:** HTML5, JavaScript ES6+
+
+Since the Agify API only wanted their first name, I used the split method to cut off the last name.
+
+## Optimizations
+
+* Some of the names are numbers or not comprehensible to the Agify API, so the age is not computed.
+
+## Lessons Learned
+
+I learned how to create a complex API using Fetch that used Star Wars character data and sent the first name over to the Agify API that generates estimates their age. In the same fetch request for the first API, in the .then promise I made another fetch request using that data. For both APIs, I looked into the objects to find out where the data was located.
