@@ -1,22 +1,15 @@
-# 📊 Project: Complex API 
+# Lyric Generator 🎵  
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+Enter an artist and a song title by them, to generate the lyrics and an image of the artist.
 
-### How to submit your code for review:
+**Live Demo:** <a href="https://lyric-generator-jenna-nguyen.netlify.app/">Demo</a>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img width="956" alt="Complex Song API" src="https://user-images.githubusercontent.com/88993361/137781991-73210c31-dcc8-4a3f-9fe6-958067354bf9.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made
+
+The application uses two different APIs in order to generate the output, according to the user's input. The first API, the Audio DB API, uses the artist name as a parameter value to generate an image while the second API, the Lyric API, uses both the artist name and a song title as two different parameter values to generate song lyrics.
+
+## What I Learned
+Generating lyrics for this application heavily depends on the user input and gives little room for errors, so it emphasized the importance of testing API parameters and understanding its boundaries. I figured out that although the API is not case-sensitive, if the user even slightly misspells something the API will fail to find the fetch request which would display an "undefined" error in place of the lyrics. I didn't mind it for this specific application (because it still conveys an error to the user) but for future projects I would find a way to improve this, such as integrating "suggested searches" as the user is typing their inputs.
+
