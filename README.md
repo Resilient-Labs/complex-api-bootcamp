@@ -1,6 +1,6 @@
 # Lyric Generator 🎵  
 
-Simply enter an artist and a song title by them to generate the lyrics and an image of the artist.
+Enter an artist and a song title by them, to generate the lyrics and an image of the artist.
 
 **Live Demo:** <a href="https://lyric-generator-jenna-nguyen.netlify.app/">Demo</a>
 
