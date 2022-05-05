@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Finder</title>
+    <link rel='stylesheet' href='this.css'>
+</head>
+<body>
+
+    <section class='search'>
+        <input class='center' id='word' placeholder='whats the word'></input>
+        <button class='center'>go!</button>
+    </section>
+    
+    <section class='appearance'>
+        <label class='center' for='theWord'>your word:</label>
+        <p class='center' id='theWord'></p>
+    </section>
+
+    <section class='results'>
+        <label class='center' for='wordResult'>let's see what we find</label>
+        <p class='center' id='wordResult'></p>
+        <audio class='center' id='howTo' controls src=''></audio>
+    </section>
+
+    <section class='speech'>
+        <label class='center' for='partOfSpeech'>part of Speech:</label>
+        <p class='center' id='partOfSpeech'></p>
+    </section>
+        
+    <section class='synonyms'>
+        <label class='center' for='syn'>synonyms:</label>
+        <p id='synoResults'></p>
+    </section>
+    <script src='this.js'></script>
+</body>
+</html>
