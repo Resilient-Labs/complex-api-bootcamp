@@ -1,0 +1,76 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: black;
+  color: white;
+  font-family: 'Inconsolata';
+  padding-top: 28px;
+  text-align: center;
+}
+
+
+input, button, h2, img, p, span{
+  margin-bottom: 28px;
+  font-size: 2rem;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 8rem;
+  background-color: rgba(0, 0, 0, 0.356);
+
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-height: 280px;
+}
+
+h3{
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.356);
+
+}
+
+p{
+  width: 60%;
+  justify-content: center;
+}
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
