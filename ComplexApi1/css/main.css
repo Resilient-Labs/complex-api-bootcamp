@@ -1,0 +1,92 @@
+/* used a dashboard visual/pic to work off of and layout boxes.*/
+body{
+  height: 800px;
+  font-family: 'Roboto Flex', sans-serif;
+  display: grid;
+  align-items: center;
+  background: rgb(235, 174, 81);
+}
+.container {
+  width: 65%;
+  margin: 0 auto;
+  background: rgba(230, 229, 229, 0.795); 
+  padding: 2%;
+  box-shadow: 10px 10px 10px -3px rgba(0, 0, 0, 0.438);
+  border-radius: 20px;
+}
+.board {
+  column-count: 2;
+    
+}
+
+.container h2 {
+  text-align: center;
+}
+
+img{
+  width: 5%;
+  margin-left: 1%;
+}
+
+.box {
+  width: 84%;
+  height: 200px;
+  background: rgb(204, 204, 204);
+  padding: 8%;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(65, 167, 255);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px -3px rgba(0,0,0,0.75);
+}
+
+.box span {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+h5{
+  font-size: 1rem;
+  font-weight: bolder;
+
+  /* text-decoration: underline; */
+}
+
+button{
+  margin-top:5%;
+  background: rgb(247, 181, 84);
+  height: 30px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.466);
+  cursor: pointer;
+  
+
+}
+
+button:hover{
+  background: rgb(231, 164, 62);
+}
+
+
+a{
+  text-decoration: none;
+  color:black
+}
+
+
+@media screen and (max-width: 768px){
+  .board {
+    column-count: 2;
+  }
+  .box span {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 700px){
+  .board {
+    column-count: 1;
+  }
+}
