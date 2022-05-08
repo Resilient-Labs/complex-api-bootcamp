@@ -1,0 +1,23 @@
+* {
+    font-size: 14px;
+}
+
+body {
+    background-image: url('https://cdn.wallpapersafari.com/86/52/zaksij.png');
+}
+
+div {
+   text-align: center;
+}
+
+select, label {
+    font-size: 2rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 32px;
+}
