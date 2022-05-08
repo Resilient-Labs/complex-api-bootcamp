@@ -1,0 +1,19 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1629654857513-1136aef1b10f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+  /* background-repeat: no-repeat; */
+  background-position: contain;
+
+}
+
+h1,h2{
+  margin-left:450px;
+}
+
+input{
+  margin-left:450px;
+  margin-bottom: 50px;
+}
+  
+div{
+margin-left:250px;
+  }
