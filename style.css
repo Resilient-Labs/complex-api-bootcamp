@@ -1,0 +1,39 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+  background: #466d1d;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: lightgray;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, h3, p {
+  color: white;;
+}
+
+h2 {
+  border-bottom: 2px dotted white;
+}
+
+p {
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+  border: 2px dotted white;
+}
