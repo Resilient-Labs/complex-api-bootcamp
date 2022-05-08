@@ -2,8 +2,6 @@ document.querySelector('button').addEventListener('click', getQuotes)
 
 function getQuotes(){
 
-let character = document.querySelector('input').value
-
 let url = `https://thronesapi.com/api/v2/Characters`
 
 fetch(url) 
@@ -15,9 +13,9 @@ fetch(url)
       let ul = document.querySelector('ul')
        const li = document.createElement('li')
        ul.appendChild(li)
-       let h5 = document.createElement('h5')
-       li.appendChild(h5)
-       h5.innerText = element.fullName
+       let h2 = document.createElement('h2')
+       li.appendChild(h2)
+       h2.innerText = element.fullName
        let img = document.createElement('img')
        li.appendChild(img)
        img.src = element.imageUrl
