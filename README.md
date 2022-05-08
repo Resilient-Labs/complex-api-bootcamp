@@ -1,22 +1,14 @@
 # 📊 Project: Complex API 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+### Goal: The website shows new inspirational quotes every hour and also shows a snipet of info about the author.
 
-### How to submit your code for review:
+![Screen Shot 2022-05-07 at 9 45 11 PM](https://user-images.githubusercontent.com/88361309/167278382-ca209664-e48d-47bb-8f59-2c1b5d56f45d.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### How It's Made 
+I used HTML and CSS+Flexbox for structure, styling and positioning.
+
+### Functionality
+I used a inspirational quote API to fetch the authors name and a quote. I then used the wikipedia API to search for a snippet of information about the author or quote.
+
+
