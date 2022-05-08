@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    text-align: center;
+    font-family: 'Maitree', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('../images/yosemite.jpg')
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* Header Styling */
+
+header {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.textStyle {
+    font-weight: 700;
+}
+
+/* Main Styling */
+
+main {
+    margin: 2% 5%;
+    background: rgba(239,229,217,.6);
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    height: 400px;
+}
