@@ -5,7 +5,7 @@
 function pkmnFind(e) {
     e.preventDefault()
     const pkmn = document.querySelector('input').value
-    const url = `https://api.pokemontcg.io/v2/cards?q=name:${pkmn}`;
+    const url = `https://api.pokemontcg.io/v2/cards?q=name:${pkmn.toLowerCase()}`;
     fetch(url)
     .then((res) => res.json()) // parse response as JSON
     .then((data) => {
@@ -16,13 +16,12 @@ function pkmnFind(e) {
     })
     const pkmnText = pkmnArr[0].flavorText
 
-    const url = `https://pokeapi.co/api/v2/pokemon/${pkmn}`
+    const url = `https://pokeapi.co/api/v2/pokemon/${pkmn.toLowerCase()}`
 
         fetch(url)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
             console.log(data)
-            console.log(url)
             const pokemon = document.querySelector('h2')
             const sprite = document.querySelector('img')
             const info = document.querySelector('.text')
@@ -34,15 +33,16 @@ function pkmnFind(e) {
 
             pokemon.innerText = `${data.name} No.${data.id}`
             sprite.src = data.sprites.front_default
-            document.querySelector('.num').innerText = data.id
             attackMove.innerText = pkmnAttack
             info.innerText = pkmnText
+
             if ( data.types.length == 2){
                 typeOne.innerText = data.types[0].type.name
                 typeTwo.innerText = data.types[1].type.name
             } else {
                 typeOne.innerText = data.types[0].type.name
             }
+
             if (data.abilities.length == 2 ) {
                 abilityOne.innerText = data.abilities[0].ability.name
                 abilityTwo.innerText = data.abilities[1].ability.name

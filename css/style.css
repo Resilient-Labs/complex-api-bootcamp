@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+header, main {
+    width: 60%;
+    margin: 0 20%;
+}
+
+header {
+    margin-top: 10px;
+    height: 100px;
+    background: #bb3535;
+    padding: 10px 5%;
+}
+
+main {
+    height: 400px;
+    padding: 0 5%;
+    border: 4px solid #bb3535;
+}
+
+form {
+    margin: 10px 0;
+}
+
+section {
+    float: left;
+    width: 50%;
+}
+
+section + section {
+    border-left: 4px solid #bb3535;
+    padding: 0 10px;
+}
+
+h1 {
+    color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+h4, p {
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 25px;
+}
+
+h4 {
+    width: 100%;
+    clear: both;
+}
+
+p {
+    width: 50%;
+    height: auto;
+    margin: 0 0 5px 0;
+}
+
+.text {
+    width: 100%;
+    clear: both;
+}
+
+.rightDex p {
+    height: 50px;
+}
