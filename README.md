@@ -2,21 +2,10 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+![Covid19](https://www.fda.gov/files/Coronavirus_3D_illustration_by_CDC_1600x900.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+I built out a covid-19 site that used one api to track covid-19 rates and the other to use the USA location and display USA on the page (as mentioned in Goals). 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project involved using APIS and learning how to set them up so that data returned from one API can make a request to another api and display that data.
+
+Check out the site here https://covid-19tracker01.netlify.app/ ! 
