@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', btn)
 
 function btn(){
-    let url = 'http://acnhapi.com/v1a/villagers/'
+    let url = 'https://acnhapi.com/v1a/villagers/'
     
     let random = Math.floor(Math.random()*390)
     fetch(url)
