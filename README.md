@@ -1,22 +1,14 @@
-# 📊 Project: Complex API 
+## Animal Crossing Api
+Created an api that fetched info on a random animal crossing character and then fetched their name in giphy.
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+Link to project: https://animalcrossingapi.netlify.app/
 
-### How to submit your code for review:
+![fg](https://user-images.githubusercontent.com/101950707/168460595-aa4f511e-4741-45e0-a200-c3025c65c190.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## ow It's Made:
+Tech used: HTML, CSS, JavaScript
+
+Using a fetch to grab info on a random animal crossing character then using the name of the character to fetch gifs from giphy.
+
+
