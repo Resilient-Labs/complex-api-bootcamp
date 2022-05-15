@@ -13,3 +13,4 @@ Tech used: HTML, CSS, JavaScript
 Using a fetch to grab info on a random animal crossing character then using the name of the character to fetch gifs from giphy.
 
 
+
