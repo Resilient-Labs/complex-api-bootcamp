@@ -12,7 +12,7 @@ function findLyrics(){
     let artist = document.querySelector('input').value
     console.log(artist)
 
-    let url = `http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${artist}&api_key=${apiKey}&format=json`
+    let url = `https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${artist}&api_key=${apiKey}&format=json`
 
     fetch(url) 
     .then(res => res.json()) // parse response as JSON 
