@@ -2,7 +2,7 @@
 
 This is a complex API where the user is able to click on the button to get an activity to do and a corresponding meme will show up based on the activity that was presented to the user.
 
-! <img width="1411" alt="Screen Shot 2022-05-22 at 12 58 39 PM" src="https://user-images.githubusercontent.com/102008028/169706853-64f2925e-73d7-4eb3-bc23-d709faf8e9b6.png">
+<img width="1411" alt="Screen Shot 2022-05-22 at 12 58 39 PM" src="https://user-images.githubusercontent.com/102008028/169706853-64f2925e-73d7-4eb3-bc23-d709faf8e9b6.png">
 
 ## Languages Used 
 
