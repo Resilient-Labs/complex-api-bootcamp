@@ -1,6 +1,6 @@
 # Covid-19 Complex API 
 
-A Retro-themed tic tac toes Application. This app includes the ability for a user to play tic tac toe with another human player. Using X's and O's players can enjoy the game! 
+A COVID-19 Stats Tracker Application. This app includes the ability for a user see the current COVID-19 stats - vaccinated, total cases, total deaths, recovered cases, and active cases are all included. Users also have the ability to get more news, find a covid testing site, and find vaccine testing!
 
 **Try it out here:** https://covid-19tracker01.netlify.app/
 
