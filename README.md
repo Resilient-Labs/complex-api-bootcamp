@@ -1,11 +1,21 @@
-# 📊 Project: Complex API 
+# Covid-19 Complex API 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+A Retro-themed tic tac toes Application. This app includes the ability for a user to play tic tac toe with another human player. Using X's and O's players can enjoy the game! 
 
-![Covid19](https://www.fda.gov/files/Coronavirus_3D_illustration_by_CDC_1600x900.png)
+**Try it out here:** https://covid-19tracker01.netlify.app/
 
-I built out a covid-19 site that used one api to track covid-19 rates and the other to use the USA location and display USA on the page (as mentioned in Goals). 
+![Covid19](https://i.imgur.com/gbx7lZR.png)
 
-This project involved using APIS and learning how to set them up so that data returned from one API can make a request to another api and display that data.
+## How It's Made:
 
-Check out the site here https://covid-19tracker01.netlify.app/ ! 
+**Tech used:** HTML5, CSS, JavaScript, API
+
+This project involved using APIS and learning how to set them up so that data returned from one API can make a request to another api and display that data. The Covid-19 app takes the country USA and uses the location to display the current status of some covid-19 statistics.
+
+## Optimizations
+
+Potentially finding improved API's - this one was more difficult to find for vaccine statistics. 
+
+## Reflections:
+
+This was cool to build out - the API's were definitely harder to work with, but I enjoyed displaying real-world statistics. The CSS is something I'm hoping to update in the future.
