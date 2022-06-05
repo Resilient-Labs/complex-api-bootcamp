@@ -1,22 +1,16 @@
-# 📊 Project: Complex API 
+# colorapi
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+# Color + Definition Api
 
-### How to submit your code for review:
+Users are able to put in a hex value, and receive a color palette based on that hex value. Then, users will also be given the name and definition of the first color in the list in the list. If the hex number put in does not match an existing color, it will display the name and definition of the closest existing color name to that hex value. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![colorcomplex jpg](https://user-images.githubusercontent.com/102040536/172031125-8ef44654-da1a-4f7d-9327-e607a965d6df.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## How It's Made:
+
+Languages/frameworks use: HTML, CSS, JavaScript
+
+## Thoughts:
+
+APIs were a bit of a nightmare to initially start working with. BUT after SO much trial and error it sort of becomes a breeze working with their keys. Practice makes perfect! Making a simple API was hard at first, but became more easy after a while. However, the complex API was the hard part. I had trouble linking two ideas together. Free to use API's were pretty limited to begin with, so it was even harder making two random things work. Initially, this was supposed to be a color API that gave you a poem based on the color name, but the poem APIs I saw were not free or they didn't give what I needed. Luckily, dictionary API's come in pretty handy!
