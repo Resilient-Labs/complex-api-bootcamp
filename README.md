@@ -1,22 +1,8 @@
-# 📊 Project: Complex API 
+<h1 align="center"> NASA Pic of the day API </h1>
+<p align="center"> This project uses a pokemon API that lets the user enter the name of any pokemon. The user will then get a random picture of the pokemon. A second api was added which would flip  a pokemon card of the same pokemon and have the picture/info display in the DOM.</p>
+ 
+ ![ss9](https://user-images.githubusercontent.com/101954954/172293260-6e04f47d-d265-4730-8bf6-855ffaafb4c9.png)
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+ Tech used: HTML, CSS, JavaScript, Web API
