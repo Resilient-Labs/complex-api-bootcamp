@@ -1,8 +1,12 @@
-# 📊 Project: Complex API 
+# NBA API 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+### Goal: Use data returned from one api to make a request to another api and display the data returned.
 
-### How to submit your code for review:
+## Used data from an NBA api that allows users to enter a player's name and see the number of seasons the player has played. 
+
+*Project completed using HTML, CSS, and Javascript.*
+
+<!-- ### How to submit your code for review:
 
 - Fork and clone this repo
 - Create a new branch called answer
@@ -20,3 +24,4 @@ I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
 ```
+ -->
