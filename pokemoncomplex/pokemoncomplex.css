@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-image: url(back1.jpg);
+    background-size: cover;
+    font-size: x-large;
+    color: rgb(53, 58, 151);
+}
+
+#card{
+    width: 400px;
+    height: 525px;
+    background-image: url(back.jpg);
+    background-size: cover;
+    
+}
+
+
+
