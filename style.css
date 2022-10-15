@@ -1,0 +1,32 @@
+*{ 
+  box-sizing: border-box;
+}
+
+body { 
+  display: flex;
+  flex-direction: column;
+  margin: 15% 20% 0 20%; 
+  background-image: url("daisy.webp");
+  font-family: 'Righteous', cursive;
+
+}
+
+h1, h2, h3, h4, button { 
+  align-self: center;
+}
+
+button { 
+  width: fit-content;
+  border-radius: 8px;
+  height: 60px;
+  width: 30%;
+  font-size: 1rem;
+  background-color:#f0f07b;
+  font-family: 'Righteous', cursive;
+
+}
+
+img { 
+  width: 50%;
+    margin-left: 25%;
+}
