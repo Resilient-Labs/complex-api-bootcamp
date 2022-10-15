@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url(./5Qzj.gif);
+    background-size: cover;
+    text-align: center;
+    height: 900px;
+    color: white;
+    font-size: 16px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
