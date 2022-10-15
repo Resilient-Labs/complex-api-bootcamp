@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito'
+}
+
+body {
+    background-image: url(abstract3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Nunito';
+}
