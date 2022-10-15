@@ -1,0 +1,32 @@
+body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../ferb.jpeg);
+  background-size: cover;
+}
+button {
+  font-size: 1.5rem;
+  padding: 1em;
+  border: 0;
+  border-radius: 12px;
+  font-family: monospace;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(10, 79, 79);
+  opacity: .5;
+}
+ 
+
+h2, h3{
+  color: white;
+}
+
+img{
+  width: 200px;
+}
