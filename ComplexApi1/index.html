@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Covid 19 - Information</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <secton>
+                <h2>Current COVID -19 Cases in <span id="country"></span> 
+                    <img src="" id="flag"></h2>
+                <h3></h3>   
+            </secton>
+            <div class="board">
+                <div class="box"><h5>Active Cases</h5><span id="active"></span>
+                    <button type="button"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">Get More News</a></button>
+                </div>
+                <div class="box">
+                    <h5>Total Cases</h5><span id="cases"></span>
+                    <button type="button"><a href="https://www.hhs.gov/coronavirus/community-based-testing-sites/index.html">Find Testing</a></button>
+                </div>
+                <div class="box"><h5>Total Deaths</h5><span id="death"></span>
+                    <button type="button"><a href="https://www.vaccines.gov/">Find Covid-19 Vaccine</a></button>
+                </div>
+                <div class="box"> 
+                    <h5>Recovered Cases</h5><span id="recovered"></span>
+                    <h5 class="vc">Total Vaccinated:</h5><span id="vaccines"></span>
+                </div>
+            </div>
+        </div>
+    
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+  </html>
