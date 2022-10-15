@@ -1,0 +1,43 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  margin: 0 5%;
+  font-family: 'Allerta', 'Helvetica', sans-serif;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+}
+section{
+  width: 50%;
+}
+h1{
+  text-align: center;
+  font-size: 3.5rem;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  background-color: #dfdff5;
+}
+h2{
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+h3{
+  margin-top: 0;
+  color: #d64242;
+}
