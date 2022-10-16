@@ -2,6 +2,8 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
+**Link to project:** https://nearbyrestaurants.netlify.app/
+
 ![git_AdobeExpress](https://user-images.githubusercontent.com/91163017/196013738-1b44550b-235f-49c5-abfe-5c1336580a0a.gif)
 
 ## How It's Made:
