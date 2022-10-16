@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+main {
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/190520084355-03-game-of-thrones-s8-e6.jpg?c=16x9&q=h_720,w_1280,c_fill);
+    background-repeat: no-repeat;
+    height: 1500px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+button, input{
+    color: black;
+}
