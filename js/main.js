@@ -4,7 +4,7 @@ document.querySelector('.randomizer').addEventListener('click', getRandomImage)
 function getRandomImage() {
     //let imageSelection = input.value
     //console.log(imageSelection)
-    fetch('http://www.randomnumberapi.com/api/v1.0/randomnumber')
+    fetch('https://www.randomnumberapi.com/api/v1.0/randomnumber')
         .then(res => res.json())
 
         .then(data => {
