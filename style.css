@@ -1,0 +1,33 @@
+body {
+  background-image: url(img/background.jpeg);
+  background-size: 100% auto;
+  /* background-repeat: no-repeat; */
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: white;
+}
+
+button {
+  margin-left: 45%;
+}
+
+.quoteResult {
+  border: 2px solid transparent;
+  width: 25%;
+  margin-left: 36%;
+}
+
+img {
+  width: 100%;
+  height: 60%;
+}
+
+.imageBox {
+  border: 2px solid transparent;
+  width: 20%;
+  margin-left: 4%;
+  height: 400px;
+  
+}
