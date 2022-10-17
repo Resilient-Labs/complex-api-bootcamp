@@ -1,22 +1,5 @@
-# 📊 Project: Complex API 
+# 📊 Project: Complex Game Of Thrones API 
+An API that shows the name, house and a famous quote from characters in the tv show Game Of Thrones 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Technologies used: HTML, CSS, JavaScript
+<img width="1303" alt="Screen Shot 2022-10-17 at 15 20 18" src="https://user-images.githubusercontent.com/100469351/196263967-43b8c820-35a8-431e-8e7e-f8e0567ea2b4.png">
