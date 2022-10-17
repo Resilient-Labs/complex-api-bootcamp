@@ -1,6 +1,5 @@
 # Project: Complex API
 
-# Complex API
 An application that when a button is pressed a Pokemon will appear as a text from the Pokeapi.
 Check it out here: https://papaya-sorbet-a0c79c.netlify.app/
 ![image](https://user-images.githubusercontent.com/112406976/196259685-e37b4db7-c9d9-485f-9511-aa6b797b4e8f.png)
