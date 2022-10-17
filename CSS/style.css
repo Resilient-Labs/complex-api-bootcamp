@@ -1,0 +1,15 @@
+body{
+    background-image: url('../images/heart1.avif');
+    background-size: cover;
+    height: 1300px;
+}
+section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+h2{
+color: rgb(76, 75, 75);
+}
