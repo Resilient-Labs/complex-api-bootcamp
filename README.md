@@ -1,6 +1,7 @@
 # 📊 Project: Complex API 
 
 ![image](https://user-images.githubusercontent.com/112201564/196260145-8810347e-6eed-4bc6-b417-980f750c284c.png)
+
 ### Tech used:  HTML CSS, JS
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
