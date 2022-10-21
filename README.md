@@ -1,6 +1,4 @@
-
-### Goal: Use data returned from one api to make a request to another api and display the data returned
-# NASA Photo of the Day API
+# Event Finder Website
 
 ### Web application that lists local events using two APIs
 
