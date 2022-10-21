@@ -4,7 +4,8 @@
 
 **Link to project:** https://nationalparksapi.netlify.app/
 
-<img width="1432" alt="Screen Shot 2022-10-16 at 7 17 19 PM" src="https://user-images.githubusercontent.com/113194307/196063454-8deaaa2a-3868-490d-963e-c6d01d3df1d0.png">
+<img width="700" alt="nationalParks copy 2" src="https://user-images.githubusercontent.com/113194307/197116075-4fd8096c-4cf2-4895-ba20-1d8ccbef794c.png">
+
 
 
 
