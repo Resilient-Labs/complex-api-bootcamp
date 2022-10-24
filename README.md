@@ -1,22 +1,16 @@
-# 📊 Project: Complex API 
+###Complex Names Like Yours API
+#### Complex(using two api's) Name API https://jasminedm-names-like-yours-simpleapi.netlify.app/
+![Complex(using two api's) Name API https://jasminedm-names-like-yours-simpleapi.netlify.app/](https://i.imgur.com/VBq76CH.jpg)
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+This complex api project allows a user to input a name. The name is used to request data from an api that guesses the nationality of a name. The data response from the first api is used to request information about the country from a different api. 
+<hr>
+I really enjoyed this project although it doesn't hold data for all names and is not necessarily correct, its an entertaining little app to try!
 
-### How to submit your code for review:
+Skills:  JS / HTML / CSS/ API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+
+
