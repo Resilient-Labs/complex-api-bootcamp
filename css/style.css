@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  padding: 6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+form{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+h2{
+  font-size: 1.6rem;
+  margin-top: 5rem;
+}
+
+h4{
+  font-size: 1.6rem;
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+span{
+  font-size: 1.6rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
