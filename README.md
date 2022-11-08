@@ -1,22 +1,16 @@
 # 📊 Project: Complex API 
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![complex_api_one](https://user-images.githubusercontent.com/23227549/200636110-543c57b1-4626-4963-ac64-b17ac2cab104.png)
 
-### How to submit your code for review:
+Link to project: https://void-complex-api-one.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Tech used: HTML, CSS, JavaScript, dictionary Api and image bank Api!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+An application that allows the user to type in a word in English, select the part of speech then receive a translation of that word in addition to an image directly related to that word!
+
+Optimizations:
+
+This was the first application where I was using two apis, both specializing in differing data. The dictionary APIs end point includes a store
+of text based information. The return from that object has words that I then used to ping the endpoint of an API that stores large amounts of images.
+
+working with two different languages as well a media types was a very fun and challenging learning experience
