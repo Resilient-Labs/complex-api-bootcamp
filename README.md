@@ -10,7 +10,7 @@ An application that allows the user to type in a word in English, select the par
 
 Optimizations:
 
-This was the first application where I was using two apis, both specializing in differing data. The dictionary APIs end point includes a store
+This was the first application where I was using two APIs, both specializing in differing data. The dictionary APIs end point includes a store
 of text based information. The return from that object has words that I then used to ping the endpoint of an API that stores large amounts of images.
 
 working with two different languages as well a media types was a very fun and challenging learning experience
