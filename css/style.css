@@ -1,0 +1,29 @@
+/* topSec{
+  background-image: url("images/complexPic.jpeg");
+  background-size: cover;
+} */
+
+
+body{
+  height: 100px;
+  width: 100%;
+  background-color: lightblue
+}
+
+#id{
+  text-align: center;
+
+}
+
+/* .element {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+} */
