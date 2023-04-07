@@ -8,7 +8,7 @@ function findHome(){
         const maxPrice = document.querySelector('#maxPrice').value
        
         const house = data.filter(home => home.price <= +maxPrice && home.homeStatus === "FOR_SALE")
-        
+         
         //console.log(house)
         
         house.forEach(home => {
@@ -37,9 +37,11 @@ function findHome(){
                 document.querySelector('#display').appendChild(li)
                 //console.log(address)
                 img.src = home.photos[0]
-                li.innerText += `${address} 
+                
+
+                li.innerText += `Address: ${address} 
                 `
-                li.innerText += `${homeType} 
+                li.innerText += `Home Type: ${homeType} 
                 `
                 li.innerText += `Bedrooms:${bedroom} 
                 Bathrooms:${bathroom} 
@@ -48,13 +50,13 @@ function findHome(){
                 `
                 li.innerText += `Days on Zillow: ${days} 
                 `
-                li.innerText += `${description} 
+                li.innerText += `Description: ${description} 
                 `
-                li.innerText += `${agentName} 
+                li.innerText += `Agent Name: ${agentName} 
                 `
-                li.innerText += `${agentPhone} 
+                li.innerText += `Contact Phone: ${agentPhone} 
                 `
-                li.innerText += `${agentEmail} 
+                li.innerText += `Contact Email: ${agentEmail} 
                 `
                 
             //console.log(zipcode)
@@ -68,7 +70,7 @@ function findHome(){
                 //console.log(school)
                 let newLi = document.createElement('li')
                 
-                newLi.appendChild(document.createTextNode(`${schoolName} ${schoolPhone} ${schoolRate}`))
+                newLi.appendChild(document.createTextNode(`School Name: ${schoolName} Phone: ${schoolPhone} Rating: ${schoolRate}`))
                 document.querySelector('#newLi').appendChild(newLi)
                 
                 //console.log(school)
