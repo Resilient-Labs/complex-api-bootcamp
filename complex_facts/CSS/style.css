@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+html {
+    background: url("https://wallpaperaccess.com/full/1156791.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+=============================================================
+Hidden
+=============================================================
+*/
+.hidden {
+    display: none;
+}
+
+/*
+=============================================================
+Layout
+=============================================================
+*/
+section {
+    height: 75px;
+    background: linear-gradient(90deg, rgba(21,21,70,.01) 0%, rgba(47,130,171, .8), rgba(195,199,200,.01) 100%);
+    margin-bottom: 0;
+}
+
+h1 {
+    color: rgb(224,224,224);
+    font-size: 2rem;
+    text-align: center;
+    padding: 17px;
+    font-family: Montserrat, sans-serif;
+}
+
+select {
+    margin-left: 50px;
+    font-family: Montserrat, sans-serif;
+}
+
+button {
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+}
+
+select,
+button,
+input {
+    border: 1px solid black;
+}
+
+select,
+input {
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 2rem;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border: 2px groove black;
+}
+
+span {
+    font-size: 1.5rem;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgb(102, 99, 99)
+}
+
+p,
+span {
+    text-align: center;
+    margin-top: 100px;
+    display: block;
+}
+
+/*
+==================================================================
+Imported Styles
+==================================================================
+*/
+button {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 10px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+p {
+    background: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: bold;
+    color: #164787;
+    padding: 40px;
+    box-shadow:
+        inset #024c71 0 0 0 5px,
+        inset #1d7eae 0 0 0 1px,
+        inset #2f82ab 0 0 0 10px,
+        inset #096d9f 0 0 0 11px,
+        inset #4a93b7 0 0 0 16px,
+        inset #305f78 0 0 0 17px,
+        inset #8cc0da 0 0 0 21px,
+        inset #51addc 0 0 0 22px;
+    text-shadow: 3px 3px 1px #bfecf7;
+}
+
+span {
+    background: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+    font-weight: bold;
+    color: #013f91;
+    padding: 30px;
+    box-shadow:
+        inset #073c82 0 0 0 5px,
+        inset #235ca7 0 0 0 1px,
+        inset #1f569d 0 0 0 10px,
+        inset #2a66b5 0 0 0 11px,
+        inset #447cc5 0 0 0 16px,
+        inset #4c688d 0 0 0 17px,
+        inset #abc1df 0 0 0 21px,
+        inset #3c5b84 0 0 0 22px;
+    text-shadow: 3px 3px 1px #bfecf7;
+}
