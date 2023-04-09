@@ -1,0 +1,28 @@
+img{
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+button{
+    margin-left: 45%;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+ul,li{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+}
+li{
+    margin-bottom: 1%;
+}
