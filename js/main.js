@@ -1,4 +1,7 @@
-
+//create a function to fetch data
+//analyze data and grab property values
+//filter through homes to match query search
+//display appended child (li)
 function findHome(){ 
     const url = `https://api.apify.com/v2/datasets/yA34xuu8uoTRwFIfd/items?token=apify_api_fQPhAaCdyXe7HQsxsEu0SLdbCGPhtr25YSAQ`
     fetch(url)
@@ -88,6 +91,8 @@ function findHome(){
         console.log(`error ${err}`)
     });
 }
+
+//create a function that clears all displayed li's
 function clearList(){
     document.querySelectorAll('li').forEach(li=>li.remove())
     document.querySelectorAll('img').forEach(img=>img.remove())
@@ -96,5 +101,6 @@ function clearList(){
 
     // count.innerHTML = liList.length
 }
+//event listeners for two buttons
 document.querySelector('#button').addEventListener('click', findHome)
 document.querySelector('#clear').addEventListener('click', clearList)
