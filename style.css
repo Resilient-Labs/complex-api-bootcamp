@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', sans-serif; 
+} 
+
+body {
+    text-align: center;
+    background-image: url("images/got.png");
+    background-size: cover;
+    /* background-position: center center; */
+    background-repeat: no-repeat;   
+    /* background-position: center top;  */
+    color:white;   
+}
+
+.button {
+    border-radius: 25%;
+}
