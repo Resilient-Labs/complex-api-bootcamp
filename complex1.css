@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url(https://media.giphy.com/media/SpoV1pB4g7gXvWo3Up/giphy.gif);
+  background-size: cover;
+  font-family: 'Prompt';
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#check{
+  margin-top: 10px;
+  font-family: 'Prompt';
+  padding: 10px;
+  border-radius: 9px;
+  border: 1px solid black;
+  color: white;
+  background-color: purple;
+}
+#name, #month, #day, #year, #time{
+  border-radius: 5px;
+  height: 30px;
+  font-family: 'Prompt';
+}
+section{
+  text-align: center;
+}
