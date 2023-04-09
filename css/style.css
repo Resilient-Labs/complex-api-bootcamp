@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: white;
+}
+#render{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 75%;
+    padding: 0;
+}
+.yourMeme{
+    width: 20%;
+    height: 50%;
+}
+img{
+    width: 100%;
+}
+ul li img{
+    width: 100%;
+}
