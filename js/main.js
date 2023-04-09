@@ -6,11 +6,13 @@ function findHome(){
     .then(data => {
         //console.log(data)
         const maxPrice = document.querySelector('#maxPrice').value
-       
-        const house = data.filter(home => home.price <= +maxPrice && home.homeStatus === "FOR_SALE")
-         
-        //console.log(house)
         
+        const house = data.filter(home => home.price <= +maxPrice && home.homeStatus === "FOR_SALE")
+        if(maxPrice===""){
+            alert('Please Input Price Range')
+        }
+        //console.log(house)
+        maxPrice.value= ""
         house.forEach(home => {
             
             const address = home.address.streetAddress
@@ -74,9 +76,11 @@ function findHome(){
                 document.querySelector('#newLi').appendChild(newLi)
                 
                 //console.log(school)
-            
+                
             })
+
         })
+        
     })
   
     })
@@ -84,4 +88,13 @@ function findHome(){
         console.log(`error ${err}`)
     });
 }
+function clearList(){
+    document.querySelectorAll('li').forEach(li=>li.remove())
+    document.querySelectorAll('img').forEach(img=>img.remove())
+    
+    // let liList = document.getElementsByClassName("liList");
+
+    // count.innerHTML = liList.length
+}
 document.querySelector('#button').addEventListener('click', findHome)
+document.querySelector('#clear').addEventListener('click', clearList)
