@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background: url("../Hopsteiner_Blog_Beer_Foam_5_17.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html{
+  font-family: "Chicle", sans-serif;
+}
+
+#table{
+    margin: 0 auto;
+    text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 2px solid rgb(2, 0, 1);
+  padding: 10px 15px;
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 2px rgb(250, 197, 45);
+}
+.press{
+  padding-top: 50px;
+  text-align: center;
+  
+}
+button{
+  font-family: "Chicle", sans-serif;
+  color: rgb(250, 197, 45);
+  background: rgb(2, 0, 1);
+}
