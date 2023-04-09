@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: url('https://img.freepik.com/free-photo/grunge-vintage-old-paper-background_1373-431.jpg?w=2000')
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.bigbox{
+    align-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+    button{
+        background-color: rgb(8, 8, 8);
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-shadow: 0 2px #010201;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 11px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    }
+
+    input{
+        width: 64%;
+        padding: 12px 20px;
+        margin: 9px 2px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        margin: 0% 0% 1% 0%;
+    }
+
+
