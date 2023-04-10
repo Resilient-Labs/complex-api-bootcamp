@@ -13,11 +13,11 @@ function getProfile(){
         let first = data.results[0].name.first
         
         document.querySelector("img").src = data.results[0].picture.large
-        document.querySelector('.first').innerText = first
-        let last = document.querySelector('.last').innerText = data.results[0].name.last
-        let gender = document.querySelector('.gender').innerText = data.results[0].gender
-        let location = document.querySelector('.location').innerText = data.results[0].location.state
-        let email = document.querySelector('.email').innerText = data.results[0].email
+        document.querySelector('.first').innerText = `First Name : ${first}`
+        let last = document.querySelector('.last').innerText = `Last Name: ${data.results[0].name.last}`
+        let gender = document.querySelector('.gender').innerText = `Gender: ${data.results[0].gender}`
+        let location = document.querySelector('.location').innerText = `State: ${data.results[0].location.state}`
+        let email = document.querySelector('.email').innerText = `Email: ${data.results[0].email}`
   
   
   
@@ -39,7 +39,7 @@ function getProfile(){
         .then(dataAge => { 
           console.log(dataAge) 
 
-          document.querySelector('.age').innerText = dataAge.age
+          document.querySelector('.age').innerText = `Age: ${dataAge.age}`
 
           if(dataAge.age === null){
             document.querySelector('.age').innerText = 'Pick An Age Of Your Choice!'

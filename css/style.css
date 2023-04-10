@@ -9,7 +9,7 @@
 
 body{
   background-image: url(../img/question.jpg);
-  background-size: cover; 
+  /* background-size: cover;  */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -21,15 +21,16 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  color: white;
 }
 
 .name{
 
-  width: 10%;
-  display: flex;
+  /* width: 10%; */
+  /* display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: center; */
 }
 
 .info{
@@ -39,17 +40,16 @@ body{
   align-items: center;
 }
 
-/* .first{
-  height: 100px;
-  width: 50%;
-  float: left;
+.bottom{
+  background-color: rgba(255, 255, 255, 0.528);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: blue;
 }
 
-.last{
-  height: 100px;
-  width: 50%;
-  float: left;
-} */
+
 
 /******************************************
 /* LAYOUT
