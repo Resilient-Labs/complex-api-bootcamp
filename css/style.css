@@ -1,0 +1,81 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  color:white;
+  font-size: 62.5%;
+
+}
+
+body{
+background-image: url('../img/background.webp');
+background-size:cover;
+text-align: center;
+}
+
+h1{
+  background: rgba(34, 30, 235, 0.459);
+  border-radius: 50px;
+  font-size: 5em;
+}
+
+h2{
+  background: rgba(34, 30, 235, 0.459);
+  border-radius: 50px;
+  font-size: 3em;
+}
+
+h3{
+  background: rgba(34, 30, 235, 0.459);
+  border-radius: 50px;
+  font-size: 3em;
+}
+
+#hitPoints{
+  background: rgba(34, 30, 235, 0.459);
+  border-radius: 50px;
+  font-size: 5em;
+}
+#moves{
+  background: rgba(34, 30, 235, 0.459);
+  border-radius: 50px;
+  font-size: 3em;
+}
+img{
+  width:15%;
+  background: rgba(34, 30, 235, 0.459);
+  border-radius: 50px;
+}
+
+button{
+  font-size: 3em;
+}
+#container{
+  float:left;
+  margin-left:12%;
+  width:75%;
+  height:300px;
+}
+p{
+  font-size: 3rem ;
+  background: rgba(34, 30, 235, 0.459);
+  border-radius: 50px;
+}
