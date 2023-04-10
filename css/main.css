@@ -2,6 +2,9 @@
   box-sizing:border box;
 }
 
+body{
+background:lightblue;
+}
 
 h1{
 text-align: center;
@@ -44,3 +47,4 @@ width:74%;
 margin-left:20%;
 margin-top:12%;
 }
+
