@@ -1,0 +1,44 @@
+/* reused styling from other projects/tweaked things */
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  text-align: center;
+  background: url(childrens-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.videoPlayer {
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
