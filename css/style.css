@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(../img/activity.png);
+  background-size: cover;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 300px
+}
+
+.hidden{
+  display:none
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
