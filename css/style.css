@@ -1,0 +1,108 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 237, 147);
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-image: linear-gradient(rgb(251, 159, 231), rgb(255, 255, 215), rgba(255, 255, 255, 0));;
+background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#one
+{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  width: 30%;
+}
+
+
+#two
+{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: xxx-large;
+}
+
+#three {
+  display: flex;
+  width: 70%;
+}
+
+#four
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h2
+{
+  width: 60%;
+}
+
+h3
+{
+  font-size: x-large;
+    width: 100%;
+    font-style: italic;
+    font-weight: 100;
+    color: darkgrey;
+    text-align: center;
+}
+p
+{
+  width: 40%;
+}
+span
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img
+{
+  border-radius: 5%;
+}
+
+textarea
+{
+  width: 99%;
+    height: 200px;
+    align-content: center;
+    display: flex;
+}
