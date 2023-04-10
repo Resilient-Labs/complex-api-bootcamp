@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    background: url('../pic/foodback.jpeg');
+
+}
+
+body {
+    margin-left: 37%;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative';
+    font-size: 3rem;
+    border-bottom: 5px groove gold;
+    width: 492px;
+    margin-left: 195px;
+}
+
+h3,
+h2 {
+    font-size: 2rem;
+    font-family: 'Bungee Outline';
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: gold;
+    color: rgb(2, 109, 2);
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Bungee Shade';
+    color: rgb(186, 5, 5);
+    letter-spacing: 1px;
+}
+
+select {
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 5px inset gold;
+    font-family: 'Cinzel';
+}
+
+button {
+    border-radius: 20px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    border: 5px inset gold;
+    font-family: 'Cinzel';
+}
