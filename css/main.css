@@ -1,0 +1,46 @@
+*{
+  box-sizing:border box;
+}
+
+
+h1{
+text-align: center;
+}
+
+p{
+text-align:center;
+}
+
+.click{
+margin-left:47%;
+float:left;
+}
+
+img{
+width: 103%;
+}
+
+.pic{
+height:600px;
+width:60%;
+float:left;
+}
+
+.box{
+height:600px;
+width:100%;
+float:left;
+}
+
+.quotes{
+height:600px;
+width:39%;
+float:left;
+}
+
+.mini{
+height:400px;
+width:74%;
+margin-left:20%;
+margin-top:12%;
+}
