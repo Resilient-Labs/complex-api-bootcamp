@@ -1,0 +1,25 @@
+html{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(../wineanddine.jpeg);
+  background-size: cover;
+}
+p{
+  margin-left: 35%;
+  margin-right: 35%;
+}
+h2{
+  font-style: italic;
+  font-weight: 100;
+}
+.wine{
+  font-style: italic;
+  font-weight: 100;
+}
+button{
+  border: 1px solid #df8a76;
+  background-color: #df8a76;
+  border-radius: 3px;
+  width: 10%;
+  color: white;
+}
