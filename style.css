@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://media.giphy.com/media/3o7btURiPqGSeg6IUM/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  
+  h2 {
+    font-size: 5rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: green;
+  }
+  
+  section{
+    width: 100%;
+  }
+
+  .name{
+    width: 100%;
+    height: 500px;
+  }
+  input, button{
+    width: 50%;
+    float: left;
+  }
+  
+  
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+
+  img {
+    display: center; /* This will remove any extra space below the image */
+    margin-left: 30%;
+    height: auto; 
+    width: fit-content;
+  }
+  
+  
+  
+  
+   input[type="text"] {
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+   
+  } 
+  
+  .fullName {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: green;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: green;
+    text-align: center;
+  }
+  
