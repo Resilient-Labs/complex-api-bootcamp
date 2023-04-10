@@ -1,0 +1,41 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+  width: 25%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* .hidden{
+  display: none;
+} */
+
+body{
+  background-color: wheat;
+  color: black;
+  background-image: url(https://cdn.shopify.com/s/files/1/0597/0549/1612/products/106289_1.jpg?v=1673400442);
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  align-items: center;
+  padding: 25px;
+}
