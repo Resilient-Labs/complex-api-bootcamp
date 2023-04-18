@@ -25,6 +25,11 @@ input{
 }
 #display, #newLi{
   list-style: none;
+  width: 50%;
+
+}
+li{
+  width: 50%;
 }
 #display{
   margin-left: 1.25%;
