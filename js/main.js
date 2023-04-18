@@ -41,7 +41,7 @@ function findHome(){
                 document.querySelector('#display').appendChild(img)
                 document.querySelector('#display').appendChild(li)
                 //console.log(address)
-                img.src = home.photos[0]
+                img.src = home.photos[1]
                 
 
                 li.innerText += `Address: ${address} 
