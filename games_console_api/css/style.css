@@ -1,0 +1,84 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://wallpapercave.com/wp/C3pXiNy.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  color: red;
+}
+label{
+  color: blueviolet;
+  font-size: 2rem; 
+  font-family: fantasy;
+}
+#dashboard {
+  width: 80%;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Your existing CSS */
+/* ... */
+
+/* Additional CSS for img and button */
+span{
+  color:blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+  object-fit: cover;
+  width: 50%;
+  height: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the image */
+  border-radius: 10px; /* Optional: Rounds the corners for a smoother look */
+}
+
+button {
+  background-color: #3498db; /* A cool blue color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px; /* Adds some padding */
+  border: none; /* Removes the border */
+  border-radius: 5px; /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  cursor: pointer; /* Changes the cursor to a hand when hovering over the button */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darkens the button color slightly when hovered */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increases the shadow size slightly when hovered */
+}
+
+
+.section-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+img {
+  width: 50%;
+  height:100 px ;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
