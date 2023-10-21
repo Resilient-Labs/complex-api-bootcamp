@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("img/sky.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+   font-family: 'Cute Font', Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 4.5rem;
+    color: white;
+    margin: 0.5% 0%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#info{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 2%;
+
+}
+
+#anime-info {
+    width: 50%;
+    height: 20%;
+    background: linear-gradient(0deg, rgba(245, 195, 129, 1) 0%, rgba(201, 82, 13, 1) 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    border: 3px solid white;
+}
+
+#anime-rec {
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(0deg, rgba(245, 195, 129, 1) 0%, rgba(201, 82, 13, 1) 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    border: 3px solid white;
+}
+
+h3{
+    font-size:2rem;
+    margin: 2%;
+}
+
+#description{
+    width: 60%;
+    font-size: 1.7rem;
+}
+
+.pic{
+    width: 30%;
+}
+
+h2{
+    font-size: 3rem; 
+    margin: 1% 0%;
+}
+#ytrecs{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+#yt{
+    width: 80%;
+    height: 45vh;
+    background: linear-gradient(0deg, rgba(245, 195, 129, 1) 0%, rgba(201, 82, 13, 1) 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    margin-bottom: 5%;
+    border: 3px solid white;
+}
+
+iframe{
+    display: block;
+    width: 80%;
+    height: 25vh;
+    border: none;
+}
+
+#disclaimer{
+    font-size: 1.6rem;
+    margin: 0;
+    width: 80%;
+    padding: 0 1%;
+    text-align: center;
+
+}
+
+
+input{
+    font-size: 1.5rem;
+    border-radius: 15px;
+    width: 55%;
+    padding: 0px 3%;
+    border-color: rgb(106, 130, 158);
+    margin-right: 2%;
+    font-family: 'Cute Font', Arial, Helvetica, sans-serif;
+}
+    
+
+button{
+    font-size: 1.5rem;
+    border-radius: 15px;
+    width: 18%;
+    background: linear-gradient(0deg, rgba(245, 195, 129, 1) 0%, rgba(201, 82, 13, 1) 100%);;
+    color: white;
+    border-color: white;
+    font-family: 'Cute Font', Arial, Helvetica, sans-serif;
+}
+
+div{
+    width: 40%;
+}
+
+
+#instructions{
+    font-size: 1.6rem;
+    color: white;
+    margin:0.5%;
+}
