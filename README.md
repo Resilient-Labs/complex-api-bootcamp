@@ -4,6 +4,8 @@
 
 For this complex API project I used a random word generator api to present a word. That displayed word's value was then input into a second nested API that then provided the definition of that word.
 
+I used HTML, CSS, API documentation, and JavaScript to complete this project.
+
 ![image](https://github.com/fjh321/Complex-API-1-FJH/assets/64885403/646cefb4-4493-46c3-a3bd-17cea2ada7b8)
 
 ### Lessons Learned :
