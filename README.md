@@ -2,21 +2,10 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- Click on button to display programmer joke
+- Joke will display
+- If a user does not understand any of the terminology in joke 
+- Click on word that you need more info on 
+- An article will display about the word selected to be able to learn more about the terminology  
+- Click on article link and get redirected to the article to learn more
+- Have a good laugh and get to learn while you are at it! 
