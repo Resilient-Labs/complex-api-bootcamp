@@ -1,6 +1,7 @@
 
 // Finds a company by ticker example Apple =  AAPL then it takes the company name and finds news articles about that company
 
+
 //event listener once button is clicked runs the function 
 document.querySelector('button').addEventListener('click', getCompany);
 
