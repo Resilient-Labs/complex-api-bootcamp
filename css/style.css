@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(133, 200, 226);
+    font-family: 'Playpen Sans', cursive;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+a:hover{
+    color: aqua
+}
+
+li{
+    margin: 1rem 0;
+}
+
+.list-box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h1, h2, h4, button, p{
+    text-align: center;
+}
+
+p{
+    margin-top: 5rem;
+}
+
+button{
+    margin-left: 42rem;
+    margin-top: 2rem;
+
+}
+
+
+.namebox{
+    background: white;
+    width:30%;
+    border-radius: 30px;
+    margin-left: 31rem;
+}
+
+h4{
+    margin-top: 1rem;
+}
