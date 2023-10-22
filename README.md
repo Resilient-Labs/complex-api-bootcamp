@@ -1,6 +1,7 @@
 # 🏀 NBA News API
 
-<img width="1421" alt="nba-news-api" src="/img/complex-asi-1.png">
+<img width="1353" alt="complex-asi-1" src="https://github.com/JacinthaDev/complex-api1/assets/129231721/9d83f58a-2b31-436a-8771-6ae09fc6e5df">
+
 
 # About this project
 This project uses an API to find NBA news. Click the button to generate a random NBA player and then see news pertaining to that player's team.
