@@ -1,22 +1,31 @@
-# 📊 Project: Complex API 
+# 🏀 NBA News API
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+<img width="1353" alt="complex-asi-1" src="https://github.com/JacinthaDev/complex-api1/assets/129231721/9d83f58a-2b31-436a-8771-6ae09fc6e5df">
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# About this project
+This project uses an API to find NBA news. Click the button to generate a random NBA player and then see news pertaining to that player's team.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Checkout this project here: https://complex-api1.netlify.app/
+
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
+
+
+## Lessons Learned:
+The difficult part of this project was finding two APIs that work together. Most of my time was spent trying to find two that worked together. 
+
+## Examples:
+Take a look at similar projects!
+
+Currency Converter: https://github.com/JacinthaDev/simple-api2
+
+Weather App: https://github.com/JacinthaDev/Weather-API
+
+Workout App: https://github.com/JacinthaDev/simple-api-1
+
+#### API Used:
+
+balldontlie API: https://app.balldontlie.io/
+
+NewsData.io: https://newsdata.io/
