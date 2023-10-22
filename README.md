@@ -5,6 +5,7 @@
 
 # About this project
 This project uses an API to find NBA news. Click the button to generate a random NBA player and then see news pertaining to that player's team.
+Checkout this project here: https://jacinthadev.github.io/complex-api1/
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
