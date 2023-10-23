@@ -64,7 +64,6 @@ function getJoke() {
 
   //using method fetch to request my data from that api using url
   fetch(url) // go get api
-
     //.then property passes param res which responds with JSON parsing out the data you requested
     .then((res) => res.json())
     .then((data) => {
@@ -93,8 +92,8 @@ function getJoke() {
 
       //using both to to clear my  title, link, and joke displayed on html
       document.querySelector("#stackoverflowLink").innerHTML = "";
-      document.querySelector("h2").innerHTML = "";
-
+      document.querySelector("p").innerHTML = "";
+      document.querySelector("figure").id = "";
       //going through each element at that index of the array and putting that element <span> </span> onto the word 
       jokeWords.forEach( word => { 
         
@@ -102,7 +101,7 @@ function getJoke() {
         console.log(`<span> ${word} </span>`)
      
         //span is wrapping on every word
-        document.querySelector("h2").innerHTML += `<span class="word" > ${word} </span>`;
+        document.querySelector("p").innerHTML += `<span class="word" > ${word} </span>`;
        
       });
       

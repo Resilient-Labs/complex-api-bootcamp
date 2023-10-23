@@ -10,20 +10,44 @@
 
   <!-- external CSS link -->
   <link rel="stylesheet" href="/week8/homework/complex-api-one/assets/css/main.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-  <h1>Want to hear a programer joke </h1>
+  <h1 class="display-3 text-center mt-4">Want to hear a programmer joke? </h1>
 
-  <label for=""> Click Here : </label>
-  <button type="button" name="button">Tell me a programmer joke</button>
+  <div class="d-grid gap-2 col-3 mx-auto mt-4">
+    <button type="button" class="btn btn-success mx-auto">Tell me a programmer joke</button>
+  </div>
 
-  <!-- Will Print Name of country or city -->
-  <h2></h2>
-  <h3>Stackoverflow Article on Terminology you clicked on:</h3>
-  <a href="" id="stackoverflowLink"></a> 
-  <!-- Will Print Temperature for Weather at Location -->
+  
+
+
+  <!-- Will Print Joke -->
+<figure class="text-center mt-4" id="hidden">
+  <blockquote class="blockquote" >
+    <p></p>
+  </blockquote>
+  <figcaption class="blockquote-footer" >
+    Some <cite title="Source Title">Disgruntled Programmer</cite>
+  </figcaption>
+</figure>
+
+  <!-- <h3>Stackoverflow Article on Terminology you clicked on:</h3> -->
+
+  <div class="alert alert-info mt-4" role="alert">
+    When joke prompts click on programmer terminology: 
+      <!-- <a href="" id="stackoverflowLink"></a>  -->
+    <a href="#" id="stackoverflowLink" class="alert-link"> </a>
+  </div>
+  
+
+ 
   <span class="word"></span>
 
   <script type="text/javascript" src="assets/js/main.js"></script>
@@ -31,6 +55,8 @@
   <!--to access stack exchange client-side authentication -->
   <script type='text/javascript' src='https://api.stackexchange.com/js/2.0/all.js'></script>
   
+    <!--to access Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
