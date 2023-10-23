@@ -1,0 +1,102 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    background: beige;
+}
+
+/*flexbox layout*/
+
+header,
+.movies,
+footer {
+    text-align: center;
+}
+
+.movies,
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news {
+    overflow: hidden;
+}
+
+/* makes movies stacked */
+.movies div {
+    flex-wrap: wrap;
+}
+
+.news div {
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+/*movies style*/
+h1,
+h2 {
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 500;
+    letter-spacing: .5rem;;
+    margin: 0;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h2,
+h4 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+#plot,
+#director {
+    font-size: 2rem;
+    padding: 0 40rem;
+}
+
+input,
+button {
+    padding: 1rem 5rem;
+    border: none;
+}
+
+button {
+    background:rgb(187, 255, 0);
+}
+
+/*news style*/
+.titleauthor {
+    text-decoration: underline;
+    font-size: 2rem;
+}   
+
+.content {
+    font-size: 1.5rem;
+}
+
+/*footer style*/
+p a{
+    text-decoration: none;
+    color: gray;
+    display: absolute;
+}
+
+/*fun styling*/
+h1:hover,
+.titleauthor:hover,
+#title:hover,
+.source {
+    color: rgb(187, 255, 0);
+}
+
