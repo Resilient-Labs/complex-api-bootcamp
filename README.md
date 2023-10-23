@@ -6,9 +6,10 @@ Ron Swanson App
 
 This project fetches witty quotes from the iconic character Ron Swanson and pairs them with related GIFs. Every click on the "I want Ron" button reveals a new quote accompanied by an animated visual, offering a delightful experience for fans of the character!
 
-Project Link: 
+Project Link: https://alejandralondev.github.io/complex-api-bootcamp/ 
 
-Screenshot: 
+Screenshot: <img width="1461" alt="ron-swanson-app-sc" src="https://github.com/alejandralondev/complex-api-bootcamp/assets/145242183/1de90c53-eb98-4a99-ae90-5c28d96af2bc">
+
 
 Ron Swanson Quotes and Gifs
 
