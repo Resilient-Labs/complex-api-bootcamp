@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://i.chzbgr.com/full/9821682176/h8F05FD88/animal-debugging-e-bug);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center 22rem;
+  /* margin-top: 5rem !important; */
+  background-color: rgb(125,173,208) !important;
+}
+
+#hidden {
+  display: none !important;
+}
