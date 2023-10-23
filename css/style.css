@@ -1,0 +1,120 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #191414;
+}
+
+main {
+  margin: 5%;
+}
+
+.musicPlayer {
+  /* background: black; */
+  width: 100%;
+  max-width: 50rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h2 > a {
+  color: #0ba360;
+  text-decoration: none;
+
+}
+
+h2 > a:hover {
+  color: white;
+}
+
+#btn {
+  font-family: 'Signika', sans-serif;
+  font-size: 3.2rem;
+  padding: 2%;
+  margin: 2%;
+}
+
+
+.bn632-hover {
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 5rem;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn22 {
+  background-image: linear-gradient(
+    to right,
+    #0ba360,
+    #3cba92,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 0.4rem 1.5rem 0 rgba(23, 168, 108, 0.75);
+}
+
+#mediaSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#mediaSection div {
+  margin: 1%;
+}
+
+.hidden {
+  display: none;
+}
