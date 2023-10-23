@@ -1,5 +1,7 @@
 # Movies and More - Complex API
 
+<img width="981" alt="Screenshot 2023-10-23 at 12 04 38 AM" src="https://github.com/codedbycass/Movies-and-More/assets/122684139/0231d5b4-1430-43f5-a06b-cb3080b0f618">
+
 ## What
 
 This dynamic app enables users to input a movie title, offering detailed information about the film, as well as additional insights into the director. This app caters to more than just movie enthusiasts; it appeals to those interested in ratings, box office results, and the latest updates on the director.
