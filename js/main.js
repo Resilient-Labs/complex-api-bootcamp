@@ -35,6 +35,9 @@ function getCompany() {
         const urlTwo = proxy + encodeURIComponent(newsAPIUrl);
 
 
+        
+
+
         fetch(urlTwo)
         .then(res => res.json()) // parse response as JSON
         .then(companyNews => {
