@@ -6,7 +6,7 @@
 
 This project is a complex company search API that allows users to find companies by their ticker (e.g., Apple = AAPL). Once a company is identified, the application fetches news articles related to that company. Additionally, it displays information about the company, such as its CEO and a brief description.
 
-((img/company.png) "Screenshot of the Crypto Search API")
+(![(img/company.png)] "Screenshot of the Crypto Search API")
 
 ## How It's Made:
 **Tech used:** HTML, CSS, JavaScript

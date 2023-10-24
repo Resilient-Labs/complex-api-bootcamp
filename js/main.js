@@ -31,7 +31,7 @@ function getCompany() {
 
         //Proxy from jose
         const proxy = "https://api.allorigins.win/raw?url=";
-        const newsAPIUrl = `https://newsapi.org/v2/everything?q=${companySearch}&apiKey=de0e407a9bae406d9c6f943b6dbb52a4`; 
+        const newsAPIUrl = `https://newsapi.org/v2/everything?q=${companySearch}&apiKey=4bdf43998525430082c2124b24c43744`; 
         const urlTwo = proxy + encodeURIComponent(newsAPIUrl);
 
 
