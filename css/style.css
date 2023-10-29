@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/question.jpg);
+  /* background-size: cover;  */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+
+.name{
+
+  /* width: 10%; */
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; */
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.bottom{
+  background-color: rgba(255, 255, 255, 0.528);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: blue;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
