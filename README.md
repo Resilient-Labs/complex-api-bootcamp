@@ -1,22 +1,18 @@
-# 📊 Project: Complex API 
+# Anime Recs on Deck
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+An anime recommendation application that allows the user to enter in an anime and get recommendations based off that anime's season and season year.+
 
-### How to submit your code for review:
+Link to project: https://animerecsondeck.netlify.app
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Anime Recs on Dec Gif](<(img/Anime-Recs-on-Dec.gif)>)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+I used HTML to create the frame of the website. I used CSS to style the sections where the information of the API data will show on the DOM. Then I used JavaScript to create an event listener on the button so that when the user submits a input through the index element, it runs the function animeLove. This function uses fetch with the Jikan API. From the Jikan API data, I pulled information from the database regarding the anime that the user inputted. The data I pulled was the title of the anime, the synopsis, the trailer for the anime, and the anime cover image.  Then I nested a second fetch to pull from another anime API called Kitsu. I used the data from the Jikan API regarding the anime's season and season year as query parameters for the Kitsu API. The Kitsu API then uses that data to recommend other animes for the user to watch. 
+
+
+## Lessons Learned:
+
+With this project, I had a issue where each time the user searched a new anime through the api, the recommendation list would add to the previous list of recommendations. I learned that I could stop this by setting the innerHTML of the ul element of the list and set it's value to an empty so each time an anime was searched it would clear the list then add new list of recommendations to the ul after it was cleared.
