@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family:Comfortaa;
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+    body{
+    background-image: url('https://i.postimg.cc/504XppvH/South-park.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    /* .wholePage{
+      display: flex;
+      flex-direction:row;
+      justify-content: flex-start;
+      border: 1px solid black;
+    } */
+
+    h1{
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    .translateButton{
+      display: flex;
+      flex-direction: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .translateButton > button {
+      width: 100px;
+      height: 35px;
+      
+    }
+
+    .wholePage{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      border: 1px solid black;
+      background-color:white;
+      width: 35%;
+      height: 500px;
+      border-radius: 30px;
+      margin-top: 50px;
+    }
+
+h2{
+    text-align:center;
+    font-size: 2rem;
+    padding: 0px 60px 0px 60px;
+}
+
+#translation2{
+    margin-top: 30px;
+}
