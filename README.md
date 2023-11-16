@@ -2,21 +2,15 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+This Project was my first attempt to use Data from one API to communicate with another API, This was super interesting to see how far the API rabbit hole can truly go, making fetches to other API's with certain Data properties i choose as in this example a image from a ingredient name!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### How it's Made
+Tech used: HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I tried to create it as a simple recipe search.
+
+### Lessons Learned
+I learned alot API's functionality & how to properly make a fetch to another API with Data, I also leard how to target & manipulate the data to send exactly what i wanted to target to the second API.
+
+## Example
+![Image Alt Text](./img/pasa.PNG)
