@@ -1,5 +1,9 @@
 # Spotify Song Gif Finder 🎵🎶
 
+Note: I have an issue with refreshing the access token for my app so it may not work. Here is a video of the app working, or I can do a live demo:
+
+https://github.com/anaiscmateus/complex-api2-bootcamp/assets/75923327/5c00dc11-1665-4c7e-aee2-313bdb596594
+
 ## Project Description
 
 The Spotify Song Gif Finder project offers a unique way to explore random songs from Spotify and find related GIFs using the Giphy API. Users can enter an artist's name to retrieve a random song and a GIF related to that artist, providing an engaging experience without the need for users to sign in to their Spotify account.
