@@ -38,6 +38,6 @@ To discover a random song and GIF, follow these steps:
 
 1. Clone the repository.
 2. Open the `index.html` file in your preferred web browser.
-3. Click "Get Song & GIF" to enjoy a unique musical and visual experience.
+3. Click "Get Song" to enjoy a unique musical and visual experience.
 
 Feel free to contribute, report issues, or provide feedback to enhance the Spotify Song Gif Finder.
