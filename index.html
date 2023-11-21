@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Input coordinates and get news for that location">
+		<title>Adress to Earthquake</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<section>
+			<h1>EARTHQUAKE DATA</h1>
+			<img src="earth.png" class="earth moveMe">
+		</section>
+		<section>
+			<p>ENTER ADDRESS TO SEE DATA</p>
+			<input type="text" id="address" placeholder="123 Seasame Street, PBS, PA 12345">
+			<button type="button" name="button">SEARCH</button>
+		</section>
+			
+
+		<section>
+			<div>
+				<h2>COORDINATES</h2>
+	
+				<h3 id="lat"></h3>
+				<h3 id="long"></h3>
+			</div>
+			<div>
+				<h2>HISTORY</h2>
+				<p>displays information about past earthquakes within a 5 degree radius</p>
+				<div id="earthquake-data"></div>
+			</div>
+		</section>
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
