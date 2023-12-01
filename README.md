@@ -4,7 +4,7 @@ An anime recommendation application that allows the user to enter in an anime an
 
 Link to project: https://animerecsondeck.netlify.app
 
-![Anime Recs on Dec Gif](<(img/Anime-Recs-on-Dec.gif)>)
+![Anime Recs On Dec Gif](img/Anime-Recs-on-Dec.gif)
 
 ## How It's Made:
 
